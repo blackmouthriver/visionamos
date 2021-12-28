@@ -1,11 +1,11 @@
-import React from "react";
+import React, {useState} from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faFileCsv} from "@fortawesome/free-solid-svg-icons";
 import Crudform from "./Crud/Crudform";
 import CrudView from "./Crud/CrudView";
 
-const initialDb =[
+const initialDb = [
     {
         id:1,
         agency: "agencia1",
@@ -76,10 +76,10 @@ const initialDb =[
         debit: "57656756756",
         credit: "56756756",
     }
-    ]
+    ];
 
 const CreationView = (initialDb) => {
-    const [db, setDb]= useState()
+    const [db, setDb] = useState([]);
     return ( 
         <div id="tablebody">
                 <br></br>
@@ -151,8 +151,9 @@ const CreationView = (initialDb) => {
                                 </tr>
                             </tbody>*/}
                     </table>
-                    {/*
+                    
                       <Crudform data={db}/>
+                      {/*
                     <div>
                     <div id="contenedorarchivo">
                     </div>

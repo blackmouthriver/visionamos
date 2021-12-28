@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Routers from './Component/Routes/Routers';
 import reportWebVitals from './reportWebVitals';
+import App from './App';
 import './Style.css';
 import './Component/Modal.css';
 import './Component/receiptMotion.css';
@@ -9,7 +9,7 @@ import './Component/receiptMotion.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Routers />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faTrash} from "@fortawesome/free-solid-svg-icons";
 import {faTimes} from "@fortawesome/free-solid-svg-icons";
+import { useHistory } from 'react-router-dom';
+import { Alert } from 'bootstrap';
 
 const initialForm = {
 
@@ -17,6 +19,12 @@ const initialForm = {
 
 const Crudform = () => {
     const [form, setForm] = useState(initialForm);
+    const history = useHistory();
+
+    function redireccionar(){
+        history.push('/RECIBO DE CAPTURA DE MOVIMIENTOS');
+      }
+
     const handleChange =(e) =>{
 
     }
@@ -116,7 +124,8 @@ const Crudform = () => {
                           name="SumaCredito " 
                           placeholder='$ 0'>
                     </input>
-                    <button id="ButtonAceptar">
+                    <button id="ButtonAceptar"
+                     onClick={() =>redireccionar()}>
                     Aceptar
                     </button>
                 </div>

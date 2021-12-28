@@ -1,12 +1,17 @@
-import react, {Component} from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import CrudView from "./Crud/CrudView";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faPrint } from "@fortawesome/free-solid-svg-icons";
-import { render } from "@testing-library/react";
-
+import { useHistory } from 'react-router-dom';
 
 const MotionCapture = () => {
+    
+    const history = useHistory();
+
+    function redireccionar(){
+        history.push('/CREACIÓN DE MOVIMIENTOS CONTABLES');
+      }
+
     return ( 
         <div class="bodyViewMotion">
             <div class="headreceipMotion">
@@ -14,7 +19,12 @@ const MotionCapture = () => {
                 <div id="conteinerButton">
                         <button class="buttonprint"> <FontAwesomeIcon id="iconPrint" 
                            icon={faPrint}/>   Imprimir</button>
-                        <button class="buttonreturn">Volver</button>
+                        <button 
+                               class="buttonreturn"
+                               onClick={()=>redireccionar()}
+                               >
+                               Volver
+                        </button>
                 </div>
             </div>
             <div>

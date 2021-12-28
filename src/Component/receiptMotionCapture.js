@@ -17,8 +17,12 @@ const MotionCapture = () => {
             <div class="headreceipMotion">
                 <p className="titleMovi">RECIBO DE CAPTURA DE MOVIMIENTOS</p>
                 <div id="conteinerButton">
-                        <button class="buttonprint"> <FontAwesomeIcon id="iconPrint" 
-                           icon={faPrint}/>   Imprimir</button>
+                        <button 
+                                class="buttonprint" 
+                                onClick={() => window.print()}
+                                > 
+                                <FontAwesomeIcon id="iconPrint" 
+                                icon={faPrint}/>   Imprimir</button>
                         <button 
                                class="buttonreturn"
                                onClick={()=>redireccionar()}

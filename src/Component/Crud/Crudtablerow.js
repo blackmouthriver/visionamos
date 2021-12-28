@@ -12,6 +12,7 @@ const Crudtablerow = (el) => {
                 <td>{el.debit}</td>
                 <td>{el.credit}</td>
             </tr>
+            
         {/*
             <tr>
                         <td id="selectitems">

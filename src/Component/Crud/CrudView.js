@@ -5,6 +5,7 @@ import Crudtablerow from './Crudtablerow';
 const CrudView = ({data}) => {
     return (
         <div>
+        
             <thead id="tablehead">
                     <tr>
                         <th  scope="col">AGENCIA</th>

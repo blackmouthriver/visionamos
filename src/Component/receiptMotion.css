@@ -170,3 +170,15 @@
 #conteinerButton{
     margin-right: 3px;
 }
+
+@media print{
+  
+  #conteinerButton{
+      display: none;
+  }
+
+  #breadcrmb{
+    display: none;
+  }
+
+}

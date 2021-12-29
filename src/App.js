@@ -8,7 +8,6 @@ import Breadcrmb from './Component/Breadcrumb';
 const App = () => {
     return (
         <div>
-            <Breadcrmb />
             <Routers />
         </div>
     )

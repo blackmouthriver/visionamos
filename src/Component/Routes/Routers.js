@@ -14,13 +14,13 @@ return(
      <Router>
        <Switch>
                 <Route exact path="/RECIBO DE CAPTURA DE MOVIMIENTOS" component={MotionCapture}/>
-                <Route exact path="/" component={Home}/>
                 <Route exact path="/CREACIÓN DE MOVIMIENTOS CONTABLES">
                         <div>
                                 <Modals />
                                 <CreationView />
                         </div>
                 </Route>
+                <Route exact path="/" component={Home}/>
                 <Route path="*" component={Error404}/>
        </Switch>
      </Router>

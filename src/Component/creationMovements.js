@@ -4,7 +4,6 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faFileCsv} from "@fortawesome/free-solid-svg-icons";
 import Crudform from "./Crud/Crudform";
 import CrudView from "./Crud/CrudView";
-
 const initialDb = [
     {
         id:1,
@@ -126,10 +125,11 @@ const CreationView = (initialDb) => {
                                 <th id="tableTop5">DB</th>
                                 <th id="tableTop5">CR</th>
                                 <th id="tableTop3">OPCIONES</th>
-                                
                                 </tr>
                             </thead>
-                            <tbody> </tbody>
+                            <tbody>
+                            
+                            </tbody>
                             
                             {/*<tbody>
                                 <tr>

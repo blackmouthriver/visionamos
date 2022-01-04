@@ -2,9 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 import App from './App';
-import './Style.css';
-import './Component/Modal.css';
-import './Component/receiptMotion.css';
 
 
 ReactDOM.render(

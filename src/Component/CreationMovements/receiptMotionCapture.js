@@ -1,11 +1,8 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import CrudView from "./Crud/CrudView";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faPrint } from "@fortawesome/free-solid-svg-icons";
 import { useHistory } from 'react-router-dom';
-import Cobelen from "./Image/Cobelen.jfif";
-import Breadcrmb from "./Breadcrumb";
-
+import Cobelen from '../Image/Cobelen.jfif';
 const MotionCapture = () => {
     
     const history = useHistory();

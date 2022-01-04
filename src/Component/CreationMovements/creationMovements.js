@@ -2,9 +2,7 @@ import React, {useState} from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faFileCsv} from "@fortawesome/free-solid-svg-icons";
-import Crudform from "./Crud/Crudform";
-import CrudView from "./Crud/CrudView";
-import Breadcrmb from "./Breadcrumb";
+import Crudform from "../CreationMovements/Crudform";
 const initialDb = [
     {
         id:1,
@@ -130,7 +128,7 @@ const CreationView = (initialDb) => {
                                 <th id="tableTop3">OPCIONES</th>
                                 </tr>
                             </thead>
-                            
+                           <Crudform data={db}/> 
                             {/*<tbody>
                                 <tr>
                                 <td>
@@ -151,8 +149,6 @@ const CreationView = (initialDb) => {
                                 </tr>
                             </tbody>*/}
                     </table>
-                    
-                      <Crudform data={db}/>
                       {/*
                     <div>
                     <div id="contenedorarchivo">

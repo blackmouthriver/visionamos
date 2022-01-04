@@ -1,5 +1,5 @@
 import React from 'react'
-import Breadcrmb from '../Breadcrumb'
+import Breadcrmb from '../NavabrAndBreadcrumb/Breadcrumb'
 import { Accordion, Card, Button } from 'react-bootstrap' 
 import ViewPersonalInformation from './ViewPersonalInformation'
 import ViewJobsInformation from './ViewJobsInformation'
@@ -37,29 +37,29 @@ const Cosigner = () => {
                                         </Accordion.Body>
                                         </Accordion.Item>
                         <Accordion.Item eventKey="4">
-                        <Accordion.Header> Información Económica</Accordion.Header>
-                                        <Accordion.Body>
+                        <Accordion.Header id="accordionHeadertwo"> Información Económica</Accordion.Header>
+                                        <Accordion.Body id='interAccordionBody'>
                         <Accordion defaultActiveKey="5">
                         <Accordion.Item eventKey="6">
-                                        <Accordion.Header> Ingresos</Accordion.Header>
+                                        <Accordion.Header id='accordionHeader'> Ingresos</Accordion.Header>
                                         <Accordion.Body>
                                              <ViewIncome />
                                         </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="7">
-                                        <Accordion.Header>Egresos</Accordion.Header>
+                                        <Accordion.Header id='accordionHeader'>Egresos</Accordion.Header>
                                         <Accordion.Body>
                                               <ViewExpenses />
                                         </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="8">
-                                        <Accordion.Header> Activos</Accordion.Header>
+                                        <Accordion.Header id='accordionHeader'> Activos</Accordion.Header>
                                         <Accordion.Body>
                                               <ViewAssets />
                                         </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="9">
-                                        <Accordion.Header> Pasivos</Accordion.Header>
+                                        <Accordion.Header id='accordionHeader'> Pasivos</Accordion.Header>
                                         <Accordion.Body>
                                                  <ViewPassives />  
                                         </Accordion.Body>

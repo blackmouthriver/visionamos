@@ -1,4 +1,4 @@
-import "./Modal.css";
+import '../Styles/Modal.css';
 import { useHistory } from 'react-router-dom';
 
 const Modal = ({children, isOpen, closeModal}) => {

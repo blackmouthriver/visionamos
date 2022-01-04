@@ -1,5 +1,5 @@
 
-import { useModal } from "../hooks/useModal";
+import { useModal } from "../../hooks/useModal";
 import Modal from "./Modal";
 
 const Modals = () => {

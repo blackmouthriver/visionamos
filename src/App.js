@@ -1,10 +1,9 @@
 import React from 'react'
 import Routers from './Component/Routes/Routers'
-import './Style.css';
-import './Component/NewCo-signer/styleCo-signer.css';
-import './Component/Modal.css';
-import './Component/receiptMotion.css';
-import Breadcrmb from './Component/Breadcrumb';
+import './Component/Styles/Modal.css';
+import './Component/Styles/styleCo-signer.css';
+import './Component/Styles/Style.css';
+import './Component/Styles/receiptMotion.css';
 
 {/*Aplicativo Visionamos version 1.0.1*/}
 

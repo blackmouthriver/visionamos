@@ -1,6 +1,7 @@
 import React from 'react'
 import Routers from './Component/Routes/Routers'
 import './Style.css';
+import './Component/NewCo-signer/styleCo-signer.css';
 import './Component/Modal.css';
 import './Component/receiptMotion.css';
 import Breadcrmb from './Component/Breadcrumb';

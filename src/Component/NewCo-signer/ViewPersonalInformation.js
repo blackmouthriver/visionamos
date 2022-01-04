@@ -3,7 +3,7 @@ import React from 'react'
 const ViewPersonalInformation = () => {
     return (
         
-        <div id='container'>
+        <div id='Container'>
             <div>
                  <label>Tipo de identificación *</label> 
                  <select>

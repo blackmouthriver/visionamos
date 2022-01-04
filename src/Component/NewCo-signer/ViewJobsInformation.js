@@ -2,7 +2,7 @@ import React from 'react'
 
 const ViewJobsInformation = () => {
     return (
-        <div id='contaner'>
+        <div id='Container'>
             <div>
                 <label>Empresa</label>
                 <input type="text" placeholder='Ingrese nombre empresa'/>  

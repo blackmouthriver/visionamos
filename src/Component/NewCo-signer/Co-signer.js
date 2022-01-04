@@ -13,25 +13,25 @@ const Cosigner = () => {
     return (
         <div>
             <Breadcrmb />
-                <div>
+                <div id='titlehead'>
                     <br></br>
                     <h1 className="title">NUEVO CODEUDOR</h1>
                 </div>
-            <Accordion defaultActiveKey="0">
-                        <Accordion.Item eventKey="1">
-                        <Accordion.Header>Datos Personales</Accordion.Header>
-                                        <Accordion.Body>
+            <Accordion defaultActiveKey="0" id='accordionBody'>
+                        <Accordion.Item id='accordionItem' eventKey="1">
+                        <Accordion.Header id='accordionHeader'>Datos Personales</Accordion.Header>
+                                        <Accordion.Body id='subAccordionBody'>
                                             <ViewPersonalInformation />
                                         </Accordion.Body>
                                         </Accordion.Item>
                         <Accordion.Item eventKey="2">
-                        <Accordion.Header >Datos Laborales</Accordion.Header>
-                                        <Accordion.Body>
+                        <Accordion.Header id='accordionHeader'>Datos Laborales</Accordion.Header>
+                                        <Accordion.Body id='subAccordionBody'>
                                             <ViewJobsInformation />
                                         </Accordion.Body>
                                         </Accordion.Item>
                         <Accordion.Item eventKey="3">
-                        <Accordion.Header>Datos de Contacto</Accordion.Header>
+                        <Accordion.Header id='accordionHeader'>Datos de Contacto</Accordion.Header>
                                         <Accordion.Body>
                                             <ViewContacInformation />
                                         </Accordion.Body>

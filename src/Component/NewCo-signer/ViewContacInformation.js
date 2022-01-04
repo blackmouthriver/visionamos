@@ -2,7 +2,7 @@ import React from 'react'
 
 const ViewContacInformation = () => {
     return (
-        <div id='contaner'>
+        <div id='Container'>
         <div>
             <label>Dirección *</label>
             <input type="text" placeholder='Ingrese dirección'/>  

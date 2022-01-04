@@ -3,6 +3,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faPrint } from "@fortawesome/free-solid-svg-icons";
 import { useHistory } from 'react-router-dom';
 import Cobelen from '../Image/Cobelen.jfif';
+import Breadcrmb from "../NavabrAndBreadcrumb/Breadcrumb";
 const MotionCapture = () => {
     
     const history = useHistory();
@@ -12,8 +13,9 @@ const MotionCapture = () => {
       }
 
     return ( 
+        <div>
+         <Breadcrmb />
         <div class="bodyViewMotion">
-
             <div class="headreceipMotion">
                 <p className="titleMovi">RECIBO DE CAPTURA DE MOVIMIENTOS</p>
                 <div id="conteinerButton">
@@ -87,6 +89,7 @@ const MotionCapture = () => {
                     </div> 
             </div>
             
+        </div>
         </div>
      );
   

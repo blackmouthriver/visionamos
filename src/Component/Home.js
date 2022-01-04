@@ -1,6 +1,7 @@
 import React from 'react'
 import { useHistory } from 'react-router-dom';
 import Cobelen from "./Image/Cobelen.jfif";
+import Breadcrmb from './NavabrAndBreadcrumb/Breadcrumb';
 
 const Home = () => {
   const history = useHistory();
@@ -13,6 +14,7 @@ const Home = () => {
   }
     return (
         <div>
+          <Breadcrmb />
           <div>Hola es toy en inicio</div> 
           <div> 
           <img  id='imagen1' src={Cobelen} />

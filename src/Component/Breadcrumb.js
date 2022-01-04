@@ -7,7 +7,7 @@ const Breadcrmb = () => {
     const history = useHistory();
 
     function redireccionar(){
-        history.push('/CREACIÓN DE MOVIMIENTOS CONTABLES');
+        history.push('/');
       }
 
     return ( 

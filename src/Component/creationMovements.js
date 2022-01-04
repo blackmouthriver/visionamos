@@ -4,6 +4,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faFileCsv} from "@fortawesome/free-solid-svg-icons";
 import Crudform from "./Crud/Crudform";
 import CrudView from "./Crud/CrudView";
+import Breadcrmb from "./Breadcrumb";
 const initialDb = [
     {
         id:1,
@@ -80,7 +81,9 @@ const initialDb = [
 const CreationView = (initialDb) => {
     const [db, setDb] = useState([]);
     return ( 
-        <div id="tablebody">
+          
+        <div id="tablebody">     
+
                 <br></br>
                 <h1 className="title">CREACIÓN DE MOVIMIENTOS CONTABLES</h1>
                 <div id="globalconteinerhead">
@@ -127,9 +130,6 @@ const CreationView = (initialDb) => {
                                 <th id="tableTop3">OPCIONES</th>
                                 </tr>
                             </thead>
-                            <tbody>
-                            
-                            </tbody>
                             
                             {/*<tbody>
                                 <tr>

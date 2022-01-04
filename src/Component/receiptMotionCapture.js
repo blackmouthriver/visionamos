@@ -3,6 +3,8 @@ import CrudView from "./Crud/CrudView";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faPrint } from "@fortawesome/free-solid-svg-icons";
 import { useHistory } from 'react-router-dom';
+import Cobelen from "./Image/Cobelen.jfif";
+import Breadcrmb from "./Breadcrumb";
 
 const MotionCapture = () => {
     
@@ -14,6 +16,7 @@ const MotionCapture = () => {
 
     return ( 
         <div class="bodyViewMotion">
+
             <div class="headreceipMotion">
                 <p className="titleMovi">RECIBO DE CAPTURA DE MOVIMIENTOS</p>
                 <div id="conteinerButton">
@@ -36,7 +39,7 @@ const MotionCapture = () => {
                       <p class="titleHead">Información General</p>
                 </div>
                  <div class="headInformationlabel">
-                      <label class="imagen">IMAGEN</label>
+                      <img  id='imagen1' src={Cobelen} />
                       <label class="labeltitle1">Comprobante</label>
                       <input class="inputReceipt"></input>
                       <label class="labeltitle1">Numero</label>
@@ -61,6 +64,9 @@ const MotionCapture = () => {
                             </tr>
                     
                     </thead>
+                    <tbody>
+                        <p>no hay datos</p>
+                    </tbody>
                 </div>
                     <div id="totales">       
                         <input 

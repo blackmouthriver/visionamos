@@ -7,6 +7,7 @@ import Modal from "../Modal";
 import Modals from "../Modals";
 import MotionCapture from "../receiptMotionCapture";
 import Error404 from "./Error404";
+import Cosigner from "../NewCo-signer/Co-signer";
 
 const Routers = () =>{
 return(
@@ -14,6 +15,7 @@ return(
      <Router>
        <Switch>
                 <Route exact path="/RECIBO DE CAPTURA DE MOVIMIENTOS" component={MotionCapture}/>
+                <Route exact path="/NUEVO CODEUDOR" component={Cosigner}/>
                 <Route exact path="/CREACIÓN DE MOVIMIENTOS CONTABLES">
                         <div>
                                 <Modals />

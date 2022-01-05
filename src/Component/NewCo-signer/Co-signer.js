@@ -17,9 +17,9 @@ const Cosigner = () => {
                     <br></br>
                     <h1 className="title">NUEVO CODEUDOR</h1>
                 </div>
-            <Accordion defaultActiveKey="0" id='accordionBody'>
-                        <Accordion.Item id='accordionItem' eventKey="1">
-                        <Accordion.Header id='accordionHeader'>Datos Personales</Accordion.Header>
+            <Accordion defaultActiveKey="0" flush id='accordionBody'>
+                        <Accordion.Item  flush id='accordionItem' eventKey="1">
+                        <Accordion.Header flush id='accordionHeader'>Datos Personales</Accordion.Header>
                                         <Accordion.Body id='subAccordionBody'>
                                             <ViewPersonalInformation />
                                         </Accordion.Body>
@@ -67,7 +67,10 @@ const Cosigner = () => {
                                         </Accordion>      
                                         </Accordion.Body>
                         </Accordion.Item>
-             </Accordion>      
+             </Accordion> 
+             <div id='spaceButtonAccept'>
+             <button id="ButtonAceptar">Aceptar</button>  
+             </div>   
         </div>
     )
 }

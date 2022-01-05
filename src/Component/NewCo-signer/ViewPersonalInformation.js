@@ -5,19 +5,19 @@ const ViewPersonalInformation = () => {
         
         <div id='Container'>
             <div>
-                 <label>Tipo de identificación *</label> 
-                 <select>
+                 <label id='labelTitle'>Tipo de identificación *</label> 
+                 <select id='inputText'>
                         <option selected>Seleccione una opción</option>
                         <option value="1">Cedula de Ciudadania</option>
                         <option value="2">Cedula de Extrangeria</option>
                         <option value="3">Tarjeta de Identidad</option>
                  </select>
-                 <label>Número identificación *</label>
-                 <input type="text" placeholder='Ingrese número'/>
-                 <label>Fecha de expedición *</label>
-                 <input type="date" placeholder="Seleccione Fecha"></input>
-                 <label>Lugar de expedición</label>
-                 <select>
+                 <label id='labelTitle'>Número identificación *</label>
+                 <input id='inputText' type="text" placeholder='Ingrese número'/>
+                 <label id='labelTitle'>Fecha de expedición *</label>
+                 <input id='inputText' type="date" placeholder="Seleccione Fecha"></input>
+                 <label id='labelTitle'>Lugar de expedición</label>
+                 <select id='inputText'>
                         <option selected>Seleccione una opción</option>
                         <option value="1">Bogota</option>
                         <option value="2">Medellin</option>
@@ -25,34 +25,34 @@ const ViewPersonalInformation = () => {
                  </select>
             </div>
             <div>
-                 <label>Primer nombre *</label>
-                 <input type="text" placeholder='Ingrese primer nombre'/>  
-                 <label>Segundo nombre</label>
-                 <input type="text" placeholder='Ingrese segundo nombre'/> 
-                 <label>Primer apellido *</label> 
-                 <input type="text" placeholder='Ingrese primer apellido'/>
-                 <label>Segundo apellido</label> 
-                 <input type="text" placeholder='Ingrese segundo apellido'/>
+                 <label id='labelTitleOne'>Primer nombre *</label>
+                 <input id='inputText' type="text" placeholder='Ingrese primer nombre'/>  
+                 <label id='labelTitleTwo'>Segundo nombre</label>
+                 <input id='inputText' type="text" placeholder='Ingrese segundo nombre'/> 
+                 <label id='labelTitleThree'>Primer apellido *</label> 
+                 <input id='inputText' type="text" placeholder='Ingrese primer apellido'/>
+                 <label id='labelTitleFour'>Segundo apellido</label> 
+                 <input id='inputText' type="text" placeholder='Ingrese segundo apellido'/>
             </div>
             <div>
-                 <label>Nacionalidad</label>
-                 <select>
+                 <label id='labelTitleFive'>Nacionalidad</label>
+                 <select id='inputText'>
                         <option selected>Seleccione una opción</option>
                         <option value="1">Colombiano</option>
                         <option value="2">Ecuatoriano</option>
                         <option value="3">Venezolano</option>
                  </select>  
-                 <label>Ciudad de nacimiento</label>
-                 <select>
+                 <label id='labelTitleSeven'>Ciudad de nacimiento</label>
+                 <select id='inputText'>
                         <option selected>Seleccione una opción</option>
                         <option value="1">Bogota</option>
                         <option value="2">Medellin</option>
                         <option value="3">Cali</option>
                  </select> 
-                 <label>Fecha de nacimiento</label> 
-                 <input type="date" placeholder="Seleccione Fecha"></input>
-                 <label>Profesión</label> 
-                 <select>
+                 <label id='labelTitleEigth'>Fecha de nacimiento</label> 
+                 <input id='inputText' type="date" placeholder="Seleccione Fecha"></input>
+                 <label id='labelTitleNine'>Profesión</label> 
+                 <select id='inputText'>
                         <option selected>Seleccione una opción</option>
                         <option value="1">Bogota</option>
                         <option value="2">Medellin</option>
@@ -60,22 +60,22 @@ const ViewPersonalInformation = () => {
                  </select> 
             </div>
             <div>
-                 <label>Estado civil</label>
-                 <select>
+                 <label id='labelTitleSix'>Estado civil</label>
+                 <select id='inputText'>
                         <option selected>Seleccione una opción</option>
                         <option value="1">Soltero</option>
                         <option value="2">Casado (a)</option>
                         <option value="3">Union Libre</option>
                         <option value="4">Viudo (a)</option>
                  </select> 
-                 <label>Género</label>
-                 <select>
+                 <label id='labelTitleTen'>Género</label>
+                 <select id='inputText'>
                         <option selected>Seleccione una opción</option>
                         <option value="1">Masculino</option>
                         <option value="2">Femenino</option>
                  </select> 
-                 <label>Estrato</label> 
-                 <select>
+                 <label id='labelTitleEleven'>Estrato</label> 
+                 <select id='inputText'>
                         <option selected>Seleccione una opción</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -84,8 +84,8 @@ const ViewPersonalInformation = () => {
                         <option value="5">5</option>
                         <option value="6">6</option>
                  </select> 
-                 <label>Nivel de escolaridad</label> 
-                 <select>
+                 <label id='labelTitleTwelve'>Nivel de escolaridad</label> 
+                 <select id='inputText'>
                         <option value="3">Sin escolaridad</option>
                         <option selected>Seleccione una opción</option>
                         <option value="1">Primaria</option>
@@ -97,8 +97,8 @@ const ViewPersonalInformation = () => {
                  </select> 
             </div>
             <div>
-            <label>Estado civil</label>
-                <select>
+            <label id='labelTitleSix'>Estado civil</label>
+                <select id='inputText'>
                         <option selected>Seleccione una opción</option>
                         <option value="1">Soltero</option>
                         <option value="2">Casado (a)</option>

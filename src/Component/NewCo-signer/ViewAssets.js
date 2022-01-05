@@ -3,27 +3,39 @@ import React from 'react'
 const ViewAssets = () => {
     return (
         <div id='Container'>
-              <div>
-                    <label>Activos inversiones</label>
-                    <input type="text" placeholder='0'/> 
-                    <label>Descripción activos inversiones</label>
-                    <input type="text" placeholder='Agregar descripción'/> 
+              <div id='expense'>
+                  <div id='expenseOne'>
+                        <label>Activos inversiones</label>
+                        <input id="inputTextIncome" type="text" placeholder='0'/> 
+                  </div> 
+                  <div id='expenseOne'>
+                        <label>Descripción activos inversiones</label>
+                        <input id="inputTextIncome" type="text" placeholder='Agregar descripción'/> 
+                  </div> 
               </div>
-              <div>
+              <div id='expense'>
+                  <div id='expenseOne'>
                     <label>Descripción vehículo</label>
-                    <input type="text" placeholder='Agregar descripción'/> 
+                    <input id="inputTextIncome" type="text" placeholder='Agregar descripción'/> 
+                  </div>
+                  <div id='expenseOne'> 
                     <label>Valor comercial propiedad raíz</label>
-                    <input type="text" placeholder='0'/> 
+                    <input id="inputTextIncome" type="text" placeholder='0'/> 
+                  </div>
               </div>
-              <div>
+              <div id='expense'>
+                  <div id='expenseOne'>
                     <label>Otros Activos</label>
-                    <input type="text" placeholder='0'/> 
+                    <input id="inputTextIncome" type="text" placeholder='0'/> 
+                  </div> 
+                  <div id='expenseOne'>
                     <label>Descripción otros activos</label>
-                    <input type="text" placeholder='0'/> 
+                    <input id="inputTextIncome" type="text" placeholder='0'/> 
+                  </div>
               </div>
-              <div>
+              <div id='expenseOne'>
                     <label>Total activos</label>
-                    <input type="text" placeholder='0'/> 
+                    <input id="inputTextIncome" type="text" placeholder='0'/> 
               </div>
             
         </div>

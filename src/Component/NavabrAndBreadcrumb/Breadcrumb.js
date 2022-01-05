@@ -12,6 +12,8 @@ const Breadcrmb = () => {
 
     return ( 
         <div  class="contain"  id="breadcrmb">
+
+
             <p id="breadcrumb">Home/Movimientos Contables</p>
             <button 
                   onClick={()=>redireccionar()}

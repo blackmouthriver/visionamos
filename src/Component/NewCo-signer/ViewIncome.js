@@ -3,27 +3,39 @@ import React from 'react'
 const ViewIncome = () => {
     return (
         <div id='Container'>
-              <div>
-                    <label>Salario</label>
-                    <input type="text" placeholder='0'/> 
+              <div id='expense'>
+                   <div id='expenseOne'>
+                        <label>Salario</label>
+                        <input id="inputTextIncome" type="text" placeholder='0'/> 
+                   </div>
+                  <div id='expenseOne'>
                     <label>Ingresos Honorarios</label>
-                    <input type="text" placeholder='0'/> 
+                    <input id="inputTextIncome" type="text" placeholder='0'/> 
+                  </div>
               </div>
-              <div>
-                    <label>Ingresos arriendos</label>
-                    <input type="text" placeholder='0'/> 
+              <div id='expense'>
+                  <div id='expenseOne'>
+                        <label>Ingresos arriendos</label>
+                        <input id="inputTextIncome" type="text" placeholder='0'/> 
+                  </div>
+                  <div id='expenseOne'> 
                     <label>Ingresos Financieros</label>
-                    <input type="text" placeholder='0'/> 
+                    <input id="inputTextIncome" type="text" placeholder='0'/> 
+                  </div>
               </div>
-              <div>
-                    <label>Otros Ingresos</label>
-                    <input type="text" placeholder='0'/> 
-                    <label>Descripción otros ingresos</label>
-                    <input type="text" placeholder='Agregar descripción'/> 
+              <div id='expense'>
+                    <div id='expenseOne'>
+                         <label>Otros Ingresos</label>
+                         <input id="inputTextIncome" type="text" placeholder='0'/> 
+                    </div>
+                    <div id='expenseOne'>
+                         <label>Descripción otros ingresos</label>
+                         <input id="inputTextIncome" type="text" placeholder='Agregar descripción'/> 
+                    </div>
               </div>
-              <div>
-                    <label>Ingresos mensuales</label>
-                    <input type="text" placeholder='0'/> 
+              <div id='expenseOne'>
+                    <label >Ingresos mensuales</label>
+                    <input id="inputTextIncome" type="text" placeholder='0'/> 
               </div>
             
         </div>

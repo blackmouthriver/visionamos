@@ -103,8 +103,7 @@ const Crudform = () => {
         
         Swal.fire({
             title: 'Exito',
-            text: "La captura de movimientos fue exitosa",
-            text: "¿Deseas continuar?",
+            text: "La captura de movimientos fue exitosa ¿Deseas continuar?",
             icon: 'success',
             showCancelButton: true,
             cancelButtonColor: 'transparent linear-gradient(180deg, #D4D8DA 0%, #EAF3FB 100%) 0% 0% no-repeat padding-box;',

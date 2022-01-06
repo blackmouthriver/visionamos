@@ -1,8 +1,4 @@
-import React, {useState} from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faFileCsv} from "@fortawesome/free-solid-svg-icons";
-import {faTrash} from "@fortawesome/free-solid-svg-icons";
 import Crudform from "../CreationMovements/Crudform";
 import Breadcrmb from "../NavabrAndBreadcrumb/Breadcrumb";
 import DrogAndDrag from "./DrogAndDrag/DrogAndDrag";
@@ -81,7 +77,7 @@ const initialDb = [
     ];
 
 const CreationView = (initialDb) => {
-    const [db, setDb] = useState([]);
+
     return ( 
           <div>
                 <Breadcrmb />
@@ -114,7 +110,7 @@ const CreationView = (initialDb) => {
                         <div id="ContenedorTabla">
                             <table class="table-conteiner">
                                 <ContainerTable />
-                                <Crudform data={db}/> 
+                                <Crudform /> 
                             </table>
                         </div>
 

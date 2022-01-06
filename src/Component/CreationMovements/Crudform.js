@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faTrash} from "@fortawesome/free-solid-svg-icons";
 import {faTimes} from "@fortawesome/free-solid-svg-icons";
@@ -96,7 +95,6 @@ const initialForm = {
 
 
 const Crudform = () => {
-    const [form, setForm] = useState(initialForm);
     const history = useHistory();
 
     function redireccionar(){

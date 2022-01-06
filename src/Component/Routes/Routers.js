@@ -18,7 +18,6 @@ return(
                 <Route exact path="/NUEVO CODEUDOR" component={Cosigner}/>
                 <Route exact path="/CREACIÓN DE MOVIMIENTOS CONTABLES">
                         <div>
-                                <Modals />
                                 <CreationView />
                         </div>
                 </Route>

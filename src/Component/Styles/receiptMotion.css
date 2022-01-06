@@ -1,6 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 .bodyViewMotion{
@@ -80,8 +81,8 @@
 }
 
 #tablehead{
-    background-color: black;
-    width: 100%;
+    background-color: #3774AF;
+    width: 100% !important;
 }
 
 .titlehead{
@@ -103,19 +104,31 @@
 }
 
 #conteinerTableReceipt{
+
    margin-left: 20px;
    margin-right: 20px;
 }
+#table-conteiner{
+    background-color: black;
+    height: 500px;
+}
 
 #titlelabel1{
+    border: 1px solid #DDDDDD;
     width: 165px;
+    height: 47px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    color: #FFFFFF;
+    opacity: 1;
 }
 
 #labeltitle1{
     width: 86px;
-    height: 15px;
+    height: 18px;
     text-align: left;
-    font: normal normal 600 12px/15px Montserrat;
+    font: normal normal 600 14px/18px Montserrat;
     letter-spacing: 0px;
     color: #000000;
     opacity: 0.73;
@@ -176,6 +189,16 @@
 
 #conteinerButton{
     margin-right: 3px;
+}
+
+#alerta{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    font: normal normal 600 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 0.73;
 }
 
 @media print{

@@ -4,6 +4,8 @@ import { faPrint } from "@fortawesome/free-solid-svg-icons";
 import { useHistory } from 'react-router-dom';
 import Cobelen from '../Image/Cobelen.jfif';
 import Breadcrmb from "../NavabrAndBreadcrumb/Breadcrumb";
+
+
 const MotionCapture = () => {
     
     const history = useHistory();
@@ -63,8 +65,9 @@ const MotionCapture = () => {
                             </tr>
                     
                     </thead>
+                    <p id="alerta">No hay datos en la tabla</p>
                     <tbody>
-                        <p>no hay datos</p>
+                        
                     </tbody>
                 </div>
                     <div id="totales">       

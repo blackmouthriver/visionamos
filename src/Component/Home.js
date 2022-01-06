@@ -1,5 +1,6 @@
 import React from 'react'
 import { useHistory } from 'react-router-dom';
+import DrogAndDrag from './CreationMovements/DrogAndDrag/DrogAndDrag';
 import Cobelen from "./Image/Cobelen.jfif";
 import Breadcrmb from './NavabrAndBreadcrumb/Breadcrumb';
 
@@ -24,7 +25,7 @@ const Home = () => {
           onClick={()=>redireccionar()}>Creación de movimientos</button> 
           <button 
           id='ButtonAceptar'
-          onClick={()=>redireccionarTWO()}>Nuevo codeudor</button> 
+          onClick={()=>redireccionarTWO()}>Nuevo codeudor</button>
         </div>
     )
 }

@@ -4,6 +4,7 @@ import { faPrint } from "@fortawesome/free-solid-svg-icons";
 import { useHistory } from 'react-router-dom';
 import Cobelen from '../Image/Cobelen.jfif';
 import Breadcrmb from "../NavabrAndBreadcrumb/Breadcrumb";
+import Swal from 'sweetalert2';
 
 
 const MotionCapture = () => {
@@ -11,7 +12,20 @@ const MotionCapture = () => {
     const history = useHistory();
 
     function redireccionar(){
-        history.push('/CREACIÓN DE MOVIMIENTOS CONTABLES');
+        Swal.fire({
+            text: "¿Deseas vover a la ventana anterior?",
+            icon: 'warning',
+            showCancelButton: true,
+            cancelButtonColor: 'transparent linear-gradient(180deg, #D4D8DA 0%, #EAF3FB 100%) 0% 0% no-repeat padding-box;',
+            cancelButtonText: 'Cancelar',
+            confirmButtonColor: '#0575BF',
+            confirmButtonText: 'Aceptar'
+          }).then((result) => {
+            if (result.isConfirmed) {
+                history.push('/CREACIÓN DE MOVIMIENTOS CONTABLES'); 
+            }
+          })
+        
       }
 
     return ( 
@@ -66,8 +80,8 @@ const MotionCapture = () => {
                     
                     </thead>
                     <p id="alerta">No hay datos en la tabla</p>
-                    <tbody>
-                        
+                    <tbody>   
+
                     </tbody>
                 </div>
                     <div id="totales">       

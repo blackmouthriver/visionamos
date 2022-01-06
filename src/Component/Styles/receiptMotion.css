@@ -160,7 +160,6 @@
     margin-left: 677px;
     margin-top: 42px;
     background: #F4F4F4 0% 0% no-repeat padding-box;
-    border: 0.5px solid #5B4D42;
     opacity: 1;
     text-align: left;
     font: normal normal 600 12px/15px Montserrat;
@@ -203,7 +202,31 @@
 }
 
 @media print{
-  
+  *{
+      padding: 0%;
+      margin: 0%;
+      background-color: #DDDDDD;
+      color: #DDDDDD;
+  }
+
+  .bodyViewMotion{
+    
+    padding: 0%;
+    margin: 0%;
+    margin-top: 30px;
+  }
+
+  .inputReceipt{
+      width: 115px;
+  }
+  #totales{
+      border: none;
+      display: inline-flex;
+  }
+  #bodyViewMotion{
+      display: none !important;
+  }
+
   #conteinerButton{
       display: none;
   }

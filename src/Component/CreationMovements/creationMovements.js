@@ -81,34 +81,34 @@ const CreationView = (initialDb) => {
     return ( 
           <div>
                 <Breadcrmb />
-                <div id="tablebody">     
+                <div id="Container">     
                         <div>
                             <br></br>
-                            <h1 className="title">CREACIÓN DE MOVIMIENTOS CONTABLES</h1>
-                            <div id="globalconteinerhead">
-                                <div class="container-sm">
-                                <div id="conteinerHead">
-                                <label id="label1">Comprobante*</label>
+                            <p id="TitleHead">CREACIÓN DE MOVIMIENTOS CONTABLES</p>
+                            <div id="ConteinerHead">
+                                <div >
+                                <div id="">
+                                <label id="">Comprobante*</label>
 
-                                <select id="SelecComp">
+                                <select id="">
                                     <option selected>Seleccione un comprobante</option>
                                     <option value="1">One</option>
                                     <option value="2">Two</option>
                                     <option value="3">Three</option>
                                 </select>
-                                <label id="label1">Fecha contable*</label>
+                                <label id="">Fecha contable*</label>
                                 <input type="date" class="form-control" id="SelecComp" placeholder="Seleccione Fecha"></input>
                             </div>    
                             <textarea type="text" class="form-control" id="inputtext" placeholder="Descripción"></textarea>
-                        </div>
+                                </div>
 
-                        <div  id="ContenedorArchivoCarga">
+                        <div  id="drogAndDrag">
                             <DrogAndDrag />  
                         </div> 
                             </div>
                         </div>
-                        <div id="ContenedorTabla">
-                            <table class="table-conteiner">
+                        <div id="">
+                            <table >
                                 <ContainerTable />
                                 <Crudform /> 
                             </table>

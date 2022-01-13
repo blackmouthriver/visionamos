@@ -31,7 +31,7 @@ const MotionCapture = () => {
       }
 
     return ( 
-        <div>
+        <div id="ContainerGobal">
 
          
          <Breadcrmb />

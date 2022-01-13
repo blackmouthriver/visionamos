@@ -1,14 +1,19 @@
-*{
-    padding: 0px;
-    margin: 0px;
+body{
     background: #F1F1F1 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
+#ContainerGobal{
+    background: #F1F1F1 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-bottom: auto;
+}
 #Container{
-    margin-top: 168px;
+    margin-top: 60px;
     margin-left: 127px;
     margin-right: 49px;
+    background: #F1F1F1 0% 0% no-repeat padding-box;
+    opacity: 1;
 }
 
 #ConteinerHead{
@@ -61,6 +66,7 @@
     width: 100%;
     height: auto;
     margin-top: 7px;
+    margin-bottom: 50px;
     background: transparent linear-gradient(180deg, #FDFDFD 0%, #F6F7F9 100%) 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
     border: 1px solid #DDDDDD;
@@ -88,16 +94,21 @@
     opacity: 1;
 }
 
+#conteiner-form{
+    background: transparent linear-gradient(180deg, #FDFDFD 0%, #F6F7F9 100%) 0% 0% no-repeat padding-box;
+}
+
 #conteiner-boton{
-   text-align: right;
-   width: 100%; 
-   background-color: rosybrown;
+    background: transparent linear-gradient(180deg, #FDFDFD 0%, #F6F7F9 100%) 0% 0% no-repeat padding-box;
+    margin-top: 13px;
+    text-align: right;
+    width: 100%; 
 }
 
 #footerView{
+    background: transparent linear-gradient(180deg, #FDFDFD 0%, #F6F7F9 100%) 0% 0% no-repeat padding-box;
     text-align: right;
     margin-bottom: 10px;
-    background-color: red;
     margin-top: 22px;
 }
 
@@ -208,4 +219,59 @@ width: 100px;
 
 #navbarprofile{
     height: 68px;
+}
+#progress{
+    margin-top: 27px;
+    width: 100%;
+}
+#container-progress{
+    text-align: right;
+    width: 100%;
+    display: inline-flex;
+}
+
+#iconfile{
+
+    margin-top: 10px;
+    color: #3774AF;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 20px;
+    opacity: 1;
+}
+#title-Drog{
+    margin-top: 1px;
+}
+#conteiner-drog{
+    text-align: center;
+    font: normal normal medium 9px Montserrat;
+    letter-spacing: 0px;
+    color: #5B4D42;
+}
+@media print{
+
+    #buttonsPrintAndReturn{
+      display: none;
+    }
+
+    #breadcrumb{
+      display: none;
+    }
+
+    #button-Return{
+        display: none;
+    }
+
+    #Container{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #inuputLabelsMovi{
+        width: 100px;
+    }
+
+    #imagen{
+        width: 30px;
+    }
 }

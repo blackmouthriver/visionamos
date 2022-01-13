@@ -80,7 +80,7 @@ const initialDb = [
 const CreationView = (initialDb) => {
 
     return ( 
-          <div>
+          <div id="ContainerGobal">
                 <Breadcrmb />
                 <navbarMenu />
                 <div id="Container">     

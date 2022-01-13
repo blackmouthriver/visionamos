@@ -1,7 +1,9 @@
 #buttonAcept{
-    width: 180px;
+    width: 150px;
     height: 39px;
     font: normal normal medium 19px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
     background: transparent linear-gradient(180deg, #0575BF 0%, #0D4C81 100%) 0% 0% no-repeat padding-box;
     border: 1px solid #0D538E;
     border-radius: 2px;
@@ -34,12 +36,36 @@
 
 #buttonAdd{
     height: 39px;
-    width: 179.5;
-    background-color: black;
+    width: 150px;
+    font: normal normal medium 16px Montserrat;
+    letter-spacing: 0px;
+    color: #3774AF;
+    opacity: 1;
+    background: transparent linear-gradient(180deg, #D4D8DA 0%, #EAF3FB 100%) 0% 0% no-repeat padding-box;
+    border: 1px solid #ECEDEF;
+    opacity: 1;
 }
 
+#iconbuttonplus{
+    font: normal normal medium 16px Montserrat;
+    letter-spacing: 0px;
+    color: #3774AF;
+    opacity: 1;
+    margin-left: 5px;
+    transform: rotate(-45deg);
+    font-size: 15px;
+    background: transparent linear-gradient(180deg, #D4D8DA 0%, #EAF3FB 100%) 0% 0% no-repeat padding-box;
+    border: 1px solid #ECEDEF;
+    opacity: 1;
+}
 
 #buttonDelete{
+    margin-top: 2px;
+    height: 39px;
+    width: 149px;
+    background: #FEFEFE 0% 0% no-repeat padding-box;
+    border: 1px solid #DDDDDD;
+    opacity: 1;
 
 }
 

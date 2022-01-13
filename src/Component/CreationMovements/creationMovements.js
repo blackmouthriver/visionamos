@@ -109,8 +109,8 @@ const CreationView = (initialDb) => {
                         </div> 
                             </div>
                         </div>
-                        <div id="">
-                            <table >
+                        <div id="container-table-create">
+                            <table id="container-table-subcreate">
                                 <ContainerTable />
                                 <Crudform /> 
                             </table>

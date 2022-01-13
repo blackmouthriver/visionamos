@@ -6,16 +6,16 @@ const ContainerTable = () => {
     return (
         <div id='containerTables'>
              
-             <thead id="">
+             <thead id="conteiner-items-table">
                     <tr>
-                        <th id="">AGENCIA</th>
-                        <th id="">CUENTA</th>
-                        <th id="">CLIENTE</th>
-                        <th id="">COMENTARIO</th>
-                        <th id="">REFERENCIA</th>
-                        <th id="">DEBITO</th>
-                        <th id="">CREDITO</th>
-                        <th id="">OPCIONES</th>
+                        <th id="conteiner-itemsOne">AGENCIA</th>
+                        <th id="conteiner-itemsTwo">CUENTA</th>
+                        <th id="conteiner-itemsOpt">CLIENTE</th>
+                        <th id="conteiner-itemsFour">COMENTARIO</th>
+                        <th id="conteiner-itemsTwo">REFERENCIA</th>
+                        <th id="conteiner-itemsThree">DEBITO</th>
+                        <th id="conteiner-itemsThree">CREDITO</th>
+                        <th id="conteiner-itemsOpt">OPCIONES</th>
                     </tr>
             </thead>
                            

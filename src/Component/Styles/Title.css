@@ -104,3 +104,152 @@
    margin-right: 3px;
    background: transparent linear-gradient(180deg, #D4D8DA 0%, #EAF3FB 100%) 0% 0% no-repeat padding-box;
 }
+
+#conteiner-itemsOne{
+   width: 140px;
+   height: 47px;
+   text-align: center;
+   background: transparent linear-gradient(180deg, #066CB0 0%, #0A528B 100%) 0% 0% no-repeat padding-box;
+   border: 1px solid #DDDDDD;
+   opacity: 1;
+   font: normal normal medium 18px Montserrat;
+   letter-spacing: 0px;
+   color: #FFFFFF;
+   opacity: 1;
+}
+
+#conteiner-itemsOpt{
+   width: 150px;
+   height: 47px;
+   text-align: center;
+   background: transparent linear-gradient(180deg, #066CB0 0%, #0A528B 100%) 0% 0% no-repeat padding-box;
+   border: 1px solid #DDDDDD;
+   opacity: 1;
+   font: normal normal medium 18px Montserrat;
+   letter-spacing: 0px;
+   color: #FFFFFF;
+   opacity: 1;
+
+}
+
+#conteiner-itemsTwo{
+   width: 120px;
+   height: 47px;
+   text-align: center;
+   background: transparent linear-gradient(180deg, #066CB0 0%, #0A528B 100%) 0% 0% no-repeat padding-box;
+   border: 1px solid #DDDDDD;
+   opacity: 1;
+   font: normal normal medium 18px Montserrat;
+   letter-spacing: 0px;
+   color: #FFFFFF;
+   opacity: 1;
+
+}
+
+#conteiner-itemsThree{
+   width: 90px;
+   height: 47px;
+   text-align: center;
+   background: transparent linear-gradient(180deg, #066CB0 0%, #0A528B 100%) 0% 0% no-repeat padding-box;
+   border: 1px solid #DDDDDD;
+   opacity: 1;
+   font: normal normal medium 18px Montserrat;
+   letter-spacing: 0px;
+   color: #FFFFFF;
+   opacity: 1;
+}
+
+#conteiner-itemsFour{
+   width: 290px;
+   height: 47px;
+   text-align: center;
+   background: transparent linear-gradient(180deg, #066CB0 0%, #0A528B 100%) 0% 0% no-repeat padding-box;
+   border: 1px solid #DDDDDD;
+   opacity: 1;
+
+   font: normal normal medium 18px Montserrat;
+   letter-spacing: 0px;
+   color: #FFFFFF;
+   opacity: 1;
+
+}
+
+#labelTextOne{
+   height: 39px;
+   margin-left: 1px;
+   width: 139px;
+   background: #FEFEFE 0% 0% no-repeat padding-box;
+   border: 1px solid #DDDDDD;
+   opacity: 1;
+   font: normal normal medium 14px Montserrat;
+   letter-spacing: 0px;
+   color: #000000;
+}
+
+#labelTextTwo{
+   height: 39px;
+   width: 118px;
+   background: #FEFEFE 0% 0% no-repeat padding-box;
+   border: 1px solid #DDDDDD;
+   opacity: 1;
+   font: normal normal medium 14px Montserrat;
+   letter-spacing: 0px;
+   color: #000000;
+}
+
+#labelTextOpt{
+   height: 39px;
+   width: 147px;
+   background: #FEFEFE 0% 0% no-repeat padding-box;
+   border: 1px solid #DDDDDD;
+   opacity: 1;
+
+   font: normal normal medium 14px Montserrat;
+   letter-spacing: 0px;
+   color: #000000;
+}
+#labelTextfour{
+   height: 39px;
+   width: 284px;
+   background: #FEFEFE 0% 0% no-repeat padding-box;
+   opacity: 1;
+   border: 1px solid #DDDDDD;
+   font: normal normal medium 14px Montserrat;
+   letter-spacing: 0px;
+   color: #000000;
+}
+#labelTextThree{
+   height: 39px;
+   width: 89px;
+   background: #FEFEFE 0% 0% no-repeat padding-box;
+   border: 1px solid #DDDDDD;
+   opacity: 1;
+   font: normal normal medium 14px Montserrat;
+   letter-spacing: 0px;
+   color: #000000;
+}
+#labelTextRef{
+   height: 39px;
+   width: 120px;
+   background: #FEFEFE 0% 0% no-repeat padding-box;
+   border: 1px solid #DDDDDD;
+   opacity: 1;
+   font: normal normal medium 14px Montserrat;
+   letter-spacing: 0px;
+   color: #000000;
+}
+
+#iconbutabletrash{
+   width: 19px;
+   height: 24px;
+   background: #A7A9AA 0% 0% no-repeat padding-box;
+   opacity: 1;
+}
+
+#Cell-resul{
+   width: 90px;
+}
+
+#Cell-total{
+   width: 90px;
+}

@@ -57,6 +57,28 @@
     opacity: 1;
 }
 
+#container-table-create{
+    width: 100%;
+    height: auto;
+    margin-top: 7px;
+    background: transparent linear-gradient(180deg, #FDFDFD 0%, #F6F7F9 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #DDDDDD;
+    opacity: 1;
+}
+
+#container-table-subcreate{
+    margin-left: 17px;
+    margin-right: 18px;
+    margin-top: 29px;
+}
+
+#conteiner-items-table{
+    width: 100px;
+}
+
+
+
 #containerTables{
     width: 100%;
     height: auto;
@@ -64,6 +86,19 @@
     box-shadow: 0px 3px 6px #00000029;
     border: 1px solid #DDDDDD;
     opacity: 1;
+}
+
+#conteiner-boton{
+   text-align: right;
+   width: 100%; 
+   background-color: rosybrown;
+}
+
+#footerView{
+    text-align: right;
+    margin-bottom: 10px;
+    background-color: red;
+    margin-top: 22px;
 }
 
 #containerHeadComprobant{

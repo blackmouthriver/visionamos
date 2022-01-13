@@ -6,7 +6,7 @@ const Modals = () => {
     const[isOpenModal, openModal1, closeModal1]=useModal(false);
     return (
         <div> 
-           <button id="buttonquestion" onClick={openModal1}>?</button>
+           <button id="buttonimport" onClick={openModal1}>Importar</button>
            <Modal isOpen={isOpenModal} closeModal={closeModal1}>
            <div class="headModal">
                 <label class="labelHeadModal">IMPORTAR ARCHIVO</label>

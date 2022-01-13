@@ -23,13 +23,12 @@ const DrogAndDrag = () => {
         <div id='droganddragConteiner'>
             
         <div id='conteiner-drog'>
-            <Modals />
             <p> <FontAwesomeIcon id="iconfile" icon={faFileCsv} /> Arrastra o seleccione un archivo de su equipo</p>
         </div>
              <div>
              <div id='preview'></div>
              <input type="file" id="input-file" hidden />
-             <button id="buttonimport">Importar</button>
+             <Modals />
              </div>
         </div>
     )

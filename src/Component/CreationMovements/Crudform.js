@@ -149,61 +149,61 @@ const Crudform = () => {
         <div>
             <form onSubmit={handleSubmit}>
                 <input 
-                        id=""
+                        id="labelTextOne"
                         type="text" 
                         name="Agencia " 
                         placeholder='Seleccionar' 
                         >
                 </input>
                 <input 
-                        id=""
+                        id="labelTextTwo"
                         type="text" 
                         name="Cuenta " 
                         placeholder='Ingresar cuenta' 
                         >
                  </input>
                 <input  
-                        id=""
+                        id="labelTextOpt"
                         type="text" 
                         name="Cliente " 
                         placeholder='Ingresar cliente' 
                         >
                 </input>
                 <input 
-                        id=""
+                        id="labelTextfour"
                         type="text" 
                         name="Comentario " 
                         placeholder='Ingresar Comentario' 
                         >
                 </input>
                 <input 
-                        id=""
+                        id="labelTextRef"
                         type="text" 
                         name="Referencia " 
                         placeholder='Ingresar referencia' 
                         >
                 </input>
                 <input 
-                        id=""
+                        id="labelTextThree"
                         type="text" 
                         name="Debito " 
                         placeholder='0' 
                         >
                 </input>
                 <input 
-                        id=""
+                        id="labelTextThree"
                         type="text" 
                         name="Credito " 
                         placeholder='0' 
                         >
                 </input>
                 <button onClick={deleteRow}
-                        id="buttonselectoption">
+                        id="buttonDelete">
                        <FontAwesomeIcon id="iconbutabletrash" 
                        icon={faTrash} />
                        </button>
             </form>
-                <div>
+                <div id="conteiner-boton">
                     <button id="buttonAdd">
                              Agregar 
                              <FontAwesomeIcon id="iconbuttonplus" 
@@ -212,24 +212,24 @@ const Crudform = () => {
                 </div>
                 <div id="footerView">
                     <input
-                          id=""
+                          id="Cell-total"
                           type="text" 
                           name="total " 
                           placeholder='Total'>  
                     </input>
                     <input 
-                          id=""
+                          id="Cell-resul"
                           type="text" 
                           name="SumaDebito " 
                           placeholder='$ 0'>
                     </input>
                     <input 
-                          id=""
+                          id="Cell-resul"
                           type="text" 
                           name="SumaCredito " 
                           placeholder='$ 0'>
                     </input>
-                    <button id=""
+                    <button id="buttonAcept"
                      onClick={() =>redireccionar()}>
                     Aceptar
                     </button>

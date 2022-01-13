@@ -58,12 +58,12 @@ const MotionCapture = () => {
             </div>
 
 
-
-            <div id="containerSubtitle">
-                      <p id="subTitleInfo">Información General</p>
-                 </div>    
+            
+            <div id="container-Subtitle">
+                <br></br>
+                 <h1 id="subTitleInfo">Información General</h1>
+            </div>   
             <div id="containerHeadComprobant">
-                 
                  <div id="containerLabels">
                       <img  id='imagen' src={Cobelen} />
                       <label id="labelMovi">Comprobante</label>

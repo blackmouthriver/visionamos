@@ -56,10 +56,11 @@ body{
     justify-content: space-between;
 }
 
-#containerSubtitle{
+#container-Subtitle{
+    margin-top: 10px;
     background: #E9E9E9 0% 0% no-repeat padding-box;
-    max-height: 42px;
     opacity: 1;
+    height: 42px;
 }
 
 #container-table-create{
@@ -95,6 +96,8 @@ body{
 }
 
 #conteiner-form{
+    display: inline-flex;
+    height: 40px;
     background: transparent linear-gradient(180deg, #FDFDFD 0%, #F6F7F9 100%) 0% 0% no-repeat padding-box;
 }
 

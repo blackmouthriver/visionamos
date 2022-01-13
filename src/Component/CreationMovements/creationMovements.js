@@ -93,13 +93,13 @@ const CreationView = (initialDb) => {
                                 <label id="Comprobante">Comprobante*</label>
 
                                 <select id="SelectCompro">
-                                    <option selected>Seleccione un comprobante</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
+                                    <option id="valueOpt" selected>Seleccione un comprobante</option>
+                                    <option id="valueOpt" value="1">One</option>
+                                    <option id="valueOpt" value="2">Two</option>
+                                    <option id="valueOpt" value="3">Three</option>
                                 </select>
                                 <label id="fecha-Contable">Fecha contable*</label>
-                                <input type="date" class="form-control" id="SelecComp" placeholder="Seleccione Fecha"></input>
+                                <input type="date" id="SelecComp" placeholder="Seleccione Fecha"></input>
                             </div>    
                             <textarea type="text" id="inputAreaText" placeholder="Descripción"></textarea>
                                 </div>

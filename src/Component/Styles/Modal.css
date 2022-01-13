@@ -18,7 +18,7 @@
 .modal-container{
     position: relative;
     width: 654px;
-    height: 449px;
+    height: 459px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
     border: 1px solid #707070;
@@ -36,8 +36,11 @@
     
 }
 
-.labelHeadModal{
-    font: normal normal medium 16px/19px Montserrat;
+#labelHeadModal{
+    font: normal normal medium 19px Montserrat;
+    letter-spacing: -0.45px;
+    color: #8391A2;
+    opacity: 1;
     width: 100%;
     text-align: center;
     line-height: 50px;
@@ -50,7 +53,7 @@
 }
 
 .ModalListOne{
-    margin-top: 44px;
+    margin-top: 39px;
     text-align: left;
     font: normal normal normal 13px/27px Montserrat;
     letter-spacing: 0px;
@@ -83,22 +86,25 @@
     text-align: center;
 }
 .footertableModal{
+    border: #066CB0;
     height: 42px;
     background: #FEFEFE 0% 0% no-repeat padding-box;
     border: 1px solid #DDDDDD;
     opacity: 1;
 }
 
-.titlestable{
-    width: 100px;
+#titlestable{
+    border : #066CB0;
     text-align: center;
-    font: normal normal medium 12px/15px Montserrat;
-    color: #FFFFFF;
+    font: normal normal medium 12px Montserrat;
+    letter-spacing: 0px;
+    color: #A7A9AA;
     opacity: 1;
 }
 
 .titleMoviCont{
     text-align: left;
+    width: 100%;
     font: normal normal 600 16px/19px Montserrat;
     letter-spacing: 0px;
     color: #0E4A7D;
@@ -106,7 +112,7 @@
 }
 
 .bodytableModal{
-   margin-top: 37px;
+   margin-top: 32px;
    margin-left: 50px;
    margin-right: 33px;
 
@@ -127,7 +133,8 @@
     margin-left: 18px;
     width: 109px;
     height: 31px;
-    font: normal normal medium 13px/16px Montserrat;
+    margin-right: 32px;
+    font: normal normal medium 13px Montserrat;
     letter-spacing: 0px;
     color: #FFFFFF;
     background: transparent linear-gradient(180deg, #0575BF 0%, #0D4C81 100%) 0% 0% no-repeat padding-box;
@@ -141,4 +148,8 @@
     font: normal normal bold 13px/27px Montserrat;
     letter-spacing: 0px;
     color: #0E4A7D;
+}
+
+#posOne{
+    width: 100px;
 }

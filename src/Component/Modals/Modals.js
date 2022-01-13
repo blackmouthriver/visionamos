@@ -9,7 +9,7 @@ const Modals = () => {
            <button id="buttonimport" onClick={openModal1}>Importar</button>
            <Modal isOpen={isOpenModal} closeModal={closeModal1}>
            <div class="headModal">
-                <label class="labelHeadModal">IMPORTAR ARCHIVO</label>
+                <label id="labelHeadModal">IMPORTAR ARCHIVO</label>
             </div>
             <div class="bodyModal">
                 <label class="titleMoviCont">Movimientos contables</label>
@@ -22,13 +22,13 @@ const Modals = () => {
                  <table>
                         <thead class="headtableModal">
                                 <tr>
-                                <th> <label id="titlestable">Posición1</label></th>
-                                <th>Posición2</th>
-                                <th>Posición3</th>
-                                <th>Posición4</th>
-                                <th>Posición5</th>
-                                <th>Posición6</th>
-                                <th>Posición7</th>
+                                <th id="posOne">Posición1</th>
+                                <th id="posOne">Posición2</th>
+                                <th id="posOne">Posición3</th>
+                                <th id="posOne">Posición4</th>
+                                <th id="posOne">Posición5</th>
+                                <th id="posOne">Posición6</th>
+                                <th id="posOne">Posición7</th>
                                 </tr>
                         </thead>
                         <tbody class="footertableModal"> 

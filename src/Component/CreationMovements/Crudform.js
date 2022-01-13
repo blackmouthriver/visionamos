@@ -115,6 +115,24 @@ const Crudform = () => {
           })
       }
 
+      function addRow(){
+        
+        Swal.fire({
+            title: 'Atención',
+            text: "¿Desea agregar una nueva fila?",
+            icon: 'warning',
+            showCancelButton: true,
+            cancelButtonColor: 'transparent linear-gradient(180deg, #D4D8DA 0%, #EAF3FB 100%) 0% 0% no-repeat padding-box;',
+            cancelButtonText: 'No',
+            confirmButtonColor: '#0575BF',
+            confirmButtonText: 'Si'
+          }).then((result) => {
+            if (result.isConfirmed) {
+                
+            }
+          })
+      }
+
       function deleteRow(){
         
         Swal.fire({
@@ -148,13 +166,12 @@ const Crudform = () => {
     return (
         <div>
             <form  id="conteiner-form" onSubmit={handleSubmit}>
-                <input 
-                        id="labelTextOne"
-                        type="text" 
-                        name="Agencia " 
-                        placeholder='Seleccionar' 
-                        >
-                </input>
+                <select id="labelTextOne">
+                        <option id="selectTable" selected>Seleccionar</option>
+                        <option id="selectTable" value="1">Agencia 1</option>
+                        <option id="selectTable" value="2">Agencia 2</option>
+                        <option id="selectTable" value="3">Agencia 3</option>
+                </select>
                 <input 
                         id="labelTextTwo"
                         type="text" 
@@ -199,15 +216,18 @@ const Crudform = () => {
                 </input>
                 <button onClick={deleteRow}
                         id="buttonDelete">
+                        <i class="bi bi-trash"></i>
                        <FontAwesomeIcon id="iconbutabletrash" 
                        icon={faTrash} />
                        </button>
             </form>
                 <div id="conteiner-boton">
-                    <button id="buttonAdd">
+                    <button id="buttonAdd" onClick={() =>addRow()}>
                              Agregar 
                              <FontAwesomeIcon id="iconbuttonplus" 
-                             icon={faTimes} />
+                             icon={faTimes} 
+                                
+                             />
                     </button>
                 </div>
                 <div id="footerView">

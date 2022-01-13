@@ -225,9 +225,7 @@ const Crudform = () => {
                     <button id="buttonAdd" onClick={() =>addRow()}>
                              Agregar 
                              <FontAwesomeIcon id="iconbuttonplus" 
-                             icon={faTimes} 
-                                
-                             />
+                             icon={faTimes} />
                     </button>
                 </div>
                 <div id="footerView">

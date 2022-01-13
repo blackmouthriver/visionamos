@@ -101,7 +101,7 @@ const Crudform = () => {
         
         Swal.fire({
             title: 'Exito',
-            text: "La captura de movimientos fue exitosa ¿Deseas continuar?",
+            text: "La captura de movimientos fue exitosa ¿Desea continuar?",
             icon: 'success',
             showCancelButton: true,
             cancelButtonColor: 'transparent linear-gradient(180deg, #D4D8DA 0%, #EAF3FB 100%) 0% 0% no-repeat padding-box;',
@@ -119,7 +119,7 @@ const Crudform = () => {
         
         Swal.fire({
             title: '¿Estas seguro?',
-            text: "¿Vas a eliminar esta fila?",
+            text: "¿Desea eliminar esta fila?",
             icon: 'warning',
             showCancelButton: true,
             confirmButtonColor: '#3085d6',
@@ -149,49 +149,49 @@ const Crudform = () => {
         <div>
             <form onSubmit={handleSubmit}>
                 <input 
-                        id="selectitems"
+                        id=""
                         type="text" 
                         name="Agencia " 
                         placeholder='Seleccionar' 
                         >
                 </input>
                 <input 
-                        id="selectitems"
+                        id=""
                         type="text" 
                         name="Cuenta " 
                         placeholder='Ingresar cuenta' 
                         >
                  </input>
                 <input  
-                        id="selectitems"
+                        id=""
                         type="text" 
                         name="Cliente " 
                         placeholder='Ingresar cliente' 
                         >
                 </input>
                 <input 
-                        id="selectitemstree"
+                        id=""
                         type="text" 
                         name="Comentario " 
                         placeholder='Ingresar Comentario' 
                         >
                 </input>
                 <input 
-                        id="selectitemsref"
+                        id=""
                         type="text" 
                         name="Referencia " 
                         placeholder='Ingresar referencia' 
                         >
                 </input>
                 <input 
-                        id="selectitemstwo"
+                        id=""
                         type="text" 
                         name="Debito " 
                         placeholder='0' 
                         >
                 </input>
                 <input 
-                        id="selectitemstwo"
+                        id=""
                         type="text" 
                         name="Credito " 
                         placeholder='0' 
@@ -204,7 +204,7 @@ const Crudform = () => {
                        </button>
             </form>
                 <div>
-                    <button id="ButtonAgregar">
+                    <button id="buttonAdd">
                              Agregar 
                              <FontAwesomeIcon id="iconbuttonplus" 
                              icon={faTimes} />
@@ -212,24 +212,24 @@ const Crudform = () => {
                 </div>
                 <div id="footerView">
                     <input
-                          id="resulselect"
+                          id=""
                           type="text" 
                           name="total " 
                           placeholder='Total'>  
                     </input>
                     <input 
-                          id="resulselecttwo"
+                          id=""
                           type="text" 
                           name="SumaDebito " 
                           placeholder='$ 0'>
                     </input>
                     <input 
-                          id="resulselecttwo"
+                          id=""
                           type="text" 
                           name="SumaCredito " 
                           placeholder='$ 0'>
                     </input>
-                    <button id="ButtonAceptar"
+                    <button id=""
                      onClick={() =>redireccionar()}>
                     Aceptar
                     </button>

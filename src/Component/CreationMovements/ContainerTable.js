@@ -4,18 +4,18 @@ import Crudform from './Crudform'
 
 const ContainerTable = () => {
     return (
-        <div>
+        <div id='containerTables'>
              
-             <thead id="tablehead">
+             <thead id="">
                     <tr>
-                        <th id="tableTop1">AGENCIA</th>
-                        <th id="tableTop2">CUENTA</th>
-                        <th id="tableTop2">CLIENTE</th>
-                        <th id="tableTop3">COMENTARIO</th>
-                        <th id="tableTop4">REFERENCIA</th>
-                        <th id="tableTop5">DEBITO</th>
-                        <th id="tableTop5">CREDITO</th>
-                        <th id="tableTop6">OPCIONES</th>
+                        <th id="">AGENCIA</th>
+                        <th id="">CUENTA</th>
+                        <th id="">CLIENTE</th>
+                        <th id="">COMENTARIO</th>
+                        <th id="">REFERENCIA</th>
+                        <th id="">DEBITO</th>
+                        <th id="">CREDITO</th>
+                        <th id="">OPCIONES</th>
                     </tr>
             </thead>
                            

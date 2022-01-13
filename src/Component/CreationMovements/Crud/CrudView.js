@@ -6,7 +6,7 @@ const CrudView = ({data}) => {
     return (
         <div>
 
-            <thead id="tablehead">
+            <thead id="">
                     <tr>
                         <th  scope="col">AGENCIA</th>
                         <th  scope="col">CUENTA</th>

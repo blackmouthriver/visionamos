@@ -5,6 +5,8 @@ import { useHistory } from 'react-router-dom';
 import Cobelen from '../Image/Cobelen.jfif';
 import Breadcrmb from "../NavabrAndBreadcrumb/Breadcrumb";
 import Swal from 'sweetalert2';
+import navbarMenu from "../NavabrAndBreadcrumb/navbarMenu";
+import navbarprofile from "../NavabrAndBreadcrumb/navbarprofile";
 
 
 const MotionCapture = () => {
@@ -13,7 +15,7 @@ const MotionCapture = () => {
 
     function redireccionar(){
         Swal.fire({
-            text: "¿Deseas vover a la ventana anterior?",
+            text: "¿Desea volver a la ventana anterior?",
             icon: 'warning',
             showCancelButton: true,
             cancelButtonColor: 'transparent linear-gradient(180deg, #D4D8DA 0%, #EAF3FB 100%) 0% 0% no-repeat padding-box;',
@@ -30,52 +32,61 @@ const MotionCapture = () => {
 
     return ( 
         <div>
+
+         
          <Breadcrmb />
-        <div class="bodyViewMotion">
-            <div class="headreceipMotion">
-                <p className="titleMovi">RECIBO DE CAPTURA DE MOVIMIENTOS</p>
-                <div id="conteinerButton">
+         <navbarMenu />
+        <div id="Container">
+            <div id="containerTibleAndbuttos">
+                <div>
+                <p id="TitleHead">RECIBO DE CAPTURA DE MOVIMIENTOS</p>
+                </div>
+                <div id="buttonsPrintAndReturn">
                         <button 
-                                class="buttonprint" 
+                                id="buttonprint" 
                                 onClick={() => window.print()}
                                 > 
                                 <FontAwesomeIcon id="iconPrint" 
                                 icon={faPrint}/>   Imprimir</button>
                         <button 
-                               class="buttonreturn"
+                               id="buttonReturn"
                                onClick={()=>redireccionar()}
                                >
                                Volver
                         </button>
                 </div>
             </div>
-            <div>
-                <div class="headInformation">
-                      <p class="titleHead">Información General</p>
-                </div>
-                 <div class="headInformationlabel">
-                      <img  id='imagen1' src={Cobelen} />
-                      <label class="labeltitle1">Comprobante</label>
-                      <input class="inputReceipt"></input>
-                      <label class="labeltitle1">Numero</label>
-                      <input class="inputReceipt"></input>
-                      <label class="labeltitle1">Fecha Contable</label>
-                      <input class="inputReceipt"></input>
-                      <label  class="labeltitle1">Descripción</label>
-                      <input class="inputReceipt"></input>
+
+
+
+            <div id="containerSubtitle">
+                      <p id="subTitleInfo">Información General</p>
+                 </div>    
+            <div id="containerHeadComprobant">
+                 
+                 <div id="containerLabels">
+                      <img  id='imagen' src={Cobelen} />
+                      <label id="labelMovi">Comprobante</label>
+                      <input id="inuputLabelsMovi"></input>
+                      <label id="labelMovi">Numero</label>
+                      <input id="inuputLabelsMovi"></input>
+                      <label id="labelMovi">Fecha Contable</label>
+                      <input id="inuputLabelsMovi"></input>
+                      <label id="labelMovi">Descripción</label>
+                      <input id="inuputLabelsMovi"></input>
                  </div> 
             </div>
-            <div class="tableviewReceipt">
-                <div id="conteinerTableReceipt">
-                    <thead id="tablehead">
-                            <tr>
-                                <th id="titlelabel1">AGENCIA</th>
-                                <th id="titlelabel1">CUENTA</th>
-                                <th id="titlelabel1">CLIENTE</th>
-                                <th id="titlelabel1">COMENTARIO</th>
-                                <th id="titlelabel1">REFERENCIA</th>
-                                <th id="titlelabel1">DEBITO</th>
-                                <th id="titlelabel1">CREDITO</th>
+            <div id="containerTables">
+                <div id="tableCaptureMovi">
+                    <thead id="tableCapture">
+                            <tr id="">
+                                <th id="cellOne">AGENCIA</th>
+                                <th id="cellOne">CUENTA</th>
+                                <th id="cellOne">CLIENTE</th>
+                                <th id="cellTwo">COMENTARIO</th>
+                                <th id="cellOne">REFERENCIA</th>
+                                <th id="cellOne">DEBITO</th>
+                                <th id="cellOne">CREDITO</th>
                             </tr>
                     
                     </thead>
@@ -84,21 +95,21 @@ const MotionCapture = () => {
 
                     </tbody>
                 </div>
-                    <div id="totales">       
+                    <div id="celltotales">       
                         <input 
-                            id="totalResult"
+                            id="cellResult"
                             type="text" 
                             name="total " 
                             placeholder='Total'>  
                         </input>
                         <input 
-                            id="debitoResult"
+                            id="cellResult"
                             type="text" 
                             name="SumaDebito " 
                             placeholder='$ 0'>
                         </input>
                         <input 
-                            id="creditoResult"
+                            id="cellResult"
                             type="text" 
                             name="SumaCredito " 
                             placeholder='$ 0'>

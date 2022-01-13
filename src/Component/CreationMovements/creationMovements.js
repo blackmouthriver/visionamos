@@ -3,6 +3,7 @@ import Crudform from "../CreationMovements/Crudform";
 import Breadcrmb from "../NavabrAndBreadcrumb/Breadcrumb";
 import DrogAndDrag from "./DrogAndDrag/DrogAndDrag";
 import ContainerTable from "./ContainerTable";
+import navbarMenu from "../NavabrAndBreadcrumb/navbarMenu";
 const initialDb = [
     {
         id:1,
@@ -81,25 +82,26 @@ const CreationView = (initialDb) => {
     return ( 
           <div>
                 <Breadcrmb />
+                <navbarMenu />
                 <div id="Container">     
                         <div>
                             <br></br>
                             <p id="TitleHead">CREACIÓN DE MOVIMIENTOS CONTABLES</p>
                             <div id="ConteinerHead">
-                                <div >
-                                <div id="">
-                                <label id="">Comprobante*</label>
+                                <div id="Container-Comprob">
+                                <div id="Conteiner-labels-head">
+                                <label id="Comprobante">Comprobante*</label>
 
-                                <select id="">
+                                <select id="SelectCompro">
                                     <option selected>Seleccione un comprobante</option>
                                     <option value="1">One</option>
                                     <option value="2">Two</option>
                                     <option value="3">Three</option>
                                 </select>
-                                <label id="">Fecha contable*</label>
+                                <label id="fecha-Contable">Fecha contable*</label>
                                 <input type="date" class="form-control" id="SelecComp" placeholder="Seleccione Fecha"></input>
                             </div>    
-                            <textarea type="text" class="form-control" id="inputtext" placeholder="Descripción"></textarea>
+                            <textarea type="text" id="inputAreaText" placeholder="Descripción"></textarea>
                                 </div>
 
                         <div  id="drogAndDrag">

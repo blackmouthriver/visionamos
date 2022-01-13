@@ -1,0 +1,20 @@
+#conteinerBreadCrumb{
+    height: 44px;
+    width: 100%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+#breadcrumb{
+    margin-left: 40px;
+    margin-top: 5px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    font: normal normal 600 15px Montserrat;
+}
+
+#navbarMenu{
+    width: 76px;
+    height: 1080px;
+}

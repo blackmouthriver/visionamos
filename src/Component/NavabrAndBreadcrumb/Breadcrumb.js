@@ -11,15 +11,16 @@ const Breadcrmb = () => {
       }
 
     return ( 
-        <div  class="contain"  id="breadcrmb">
+        <div  id="conteinerBreadCrumb">
 
-
-            <p id="breadcrumb">Home/Movimientos Contables</p>
+             <div id="breadcrumb">
+             <p id="breadcrumb">Home/Movimientos Contables</p>
+             </div>
             <button 
                   onClick={()=>redireccionar()}
-                  id="buttonreturn">
+                  id="button-Return">
                   <FontAwesomeIcon 
-                  id="iconbuttonreturn" 
+                  id="iconReturn" 
                   icon={faArrowLeft} />
                   Regresar
             </button>

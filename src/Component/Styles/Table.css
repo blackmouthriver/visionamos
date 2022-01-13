@@ -1,0 +1,176 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background: #F1F1F1 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#Container{
+    margin-top: 168px;
+    margin-left: 127px;
+    margin-right: 49px;
+}
+
+#ConteinerHead{
+    width: 100%;
+    height: 126px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+#Container-Comprob{
+    background: transparent linear-gradient(180deg, #FDFDFD 0%, #F6F7F9 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #DDDDDD;
+    opacity: 1;
+    height: 126px;
+    width: 100%;
+}
+#Comprobant{
+    width: 500px;
+    height: 126px;
+    background: transparent linear-gradient(180deg, #FDFDFD 0%, #F6F7F9 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #DDDDDD;
+    opacity: 1;
+
+}
+
+#drogAndDrag{
+    margin-left: 15px;
+    height: 126px;
+    width: 534px;
+    background: transparent linear-gradient(180deg, #FDFDFD 0%, #F6F7F9 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #DDDDDD;
+    opacity: 1;
+}
+
+#containerTibleAndbuttos{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+#containerSubtitle{
+    background: #E9E9E9 0% 0% no-repeat padding-box;
+    max-height: 42px;
+    opacity: 1;
+}
+
+#containerTables{
+    width: 100%;
+    height: auto;
+    background: transparent linear-gradient(180deg, #FDFDFD 0%, #F6F7F9 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #DDDDDD;
+    opacity: 1;
+}
+
+#containerHeadComprobant{
+    background: transparent linear-gradient(180deg, #FDFDFD 0%, #F6F7F9 100%) 0% 0% no-repeat padding-box;
+    height: 92px;
+    opacity: 1;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #DDDDDD;
+    opacity: 1;
+    margin-bottom: 7px;
+}
+
+#containerLabels{
+    margin-left: 17px;
+    margin-right: 18px;
+    margin-top: 20px;
+}
+
+#cellTables{
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    height: 47px;
+    background: transparent linear-gradient(180deg, #066CB0 0%, #0B4F87 100%) 0% 0% no-repeat padding-box;
+    border: 1px solid #DDDDDD;
+    opacity: 1;
+}
+#tableCaptureMovi{
+    background: transparent linear-gradient(180deg, #FDFDFD 0%, #F6F7F9 100%) 0% 0% no-repeat padding-box;
+    margin-top: 29px;
+    margin-left: 17px;
+    width: 97.1%;
+}
+
+ #tableCapture{
+width: 100px;
+}
+
+#imagen{
+    width: 95px;
+    height: 37px;
+    opacity: 1;
+}
+
+#navbarMenu{
+    width: 76px;
+    height: 1080px;
+    background: #E5E6E9 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 6px #0000000D;
+    opacity: 1;
+}
+
+#cellOne{
+    font: normal normal medium 18px Montserrat !important;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    text-align: center;
+    height: 47px;
+    width: 150px;
+    background: transparent linear-gradient(180deg, #066CB0 0%, #0B4F87 100%) 0% 0% no-repeat padding-box !important;
+    border: 1px solid #DDDDDD;
+    opacity: 1;
+}
+
+#cellTwo{
+    font: normal normal medium 18px Montserrat !important;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    text-align: center;
+    height: 47px;
+    width: 254px;
+    background: transparent linear-gradient(180deg, #066CB0 0%, #0B4F87 100%) 0% 0% no-repeat padding-box !important;
+    border: 1px solid #DDDDDD;
+    opacity: 1;
+}
+
+#cellResult{
+    width: 150px;
+    height: 37px;
+    background: #F4F4F4 0% 0% no-repeat padding-box;
+    border: 0.5px solid #5B4D42;
+    opacity: 1;
+}
+
+#celltotales{
+    text-align: left;
+    font: normal normal 600 /15px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 0.73;
+    text-align: right;
+    margin-left: 17px;
+    margin-right: 18px;
+    margin-bottom: 34px;
+    background: transparent linear-gradient(180deg, #FDFDFD 0%, #F6F7F9 100%) 0% 0% no-repeat padding-box;
+}
+
+#alerta{
+    background: transparent linear-gradient(180deg, #FDFDFD 0%, #F6F7F9 100%) 0% 0% no-repeat padding-box;
+    font: normal normal 600 15px Montserrat !important;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#navbarprofile{
+    height: 68px;
+}

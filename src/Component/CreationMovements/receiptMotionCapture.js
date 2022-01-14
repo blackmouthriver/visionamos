@@ -82,6 +82,7 @@ const MotionCapture = () => {
                             <tr id="">
                                 <th id="cellOne">AGENCIA</th>
                                 <th id="cellOne">CUENTA</th>
+                                <th id="cellOne">IDENTIFICACIÓN</th>
                                 <th id="cellOne">CLIENTE</th>
                                 <th id="cellTwo">COMENTARIO</th>
                                 <th id="cellOne">REFERENCIA</th>

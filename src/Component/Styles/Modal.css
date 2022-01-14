@@ -80,26 +80,20 @@
 
 .headtableModal{
     background: transparent linear-gradient(180deg, #066CB0 0%, #0A528B 100%) 0% 0% no-repeat padding-box;
-    border: 1px solid #DDDDDD;
     opacity: 1;
     height: 33px;
     text-align: center;
 }
 .footertableModal{
-    border: #066CB0;
+    background: #D1D4D5 0% 0% no-repeat padding-box;
     height: 42px;
-    background: #FEFEFE 0% 0% no-repeat padding-box;
-    border: 1px solid #DDDDDD;
     opacity: 1;
 }
 
 #titlestable{
-    border : #066CB0;
+    border: 1px solid #707070;
     text-align: center;
     font: normal normal medium 12px Montserrat;
-    letter-spacing: 0px;
-    color: #A7A9AA;
-    opacity: 1;
 }
 
 .titleMoviCont{
@@ -151,5 +145,6 @@
 }
 
 #posOne{
+    border: 1px solid #707070;
     width: 100px;
 }

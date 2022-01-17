@@ -13,9 +13,17 @@ const Breadcrmb = () => {
     return ( 
         <div  id="conteinerBreadCrumb">
 
-             <div id="breadcrumb">
+             {/*<div id="breadcrumb">
              <p id="breadcrumb">Home/Movimientos Contables</p>
-             </div>
+             </div>*/}
+
+             <nav aria-label="breadcrumb" id="breadcrumb">
+              <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="./Component/Home.js">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Creación de movimientos</li>
+              <li class="breadcrumb-item active" aria-current="page">Recibo captura de movimientos</li>
+              </ol>
+            </nav>
             <button 
                   onClick={()=>redireccionar()}
                   id="button-Return">

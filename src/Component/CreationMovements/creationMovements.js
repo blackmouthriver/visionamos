@@ -4,6 +4,7 @@ import Breadcrmb from "../NavabrAndBreadcrumb/Breadcrumb";
 import DrogAndDrag from "./DrogAndDrag/DrogAndDrag";
 import ContainerTable from "./ContainerTable";
 import navbarMenu from "../NavabrAndBreadcrumb/navbarMenu";
+import navbarprofile from "../NavabrAndBreadcrumb/navbarprofile";
 const initialDb = [
     {
         id:1,

@@ -140,16 +140,18 @@ const Crudform = () => {
             text: "¿Desea eliminar esta fila?",
             icon: 'warning',
             showCancelButton: true,
-            confirmButtonColor: '#3085d6',
-            cancelButtonColor: '#d33',
-            confirmButtonText: 'Yes, delete it!'
+            confirmButtonColor: '#0575BF',
+            cancelButtonColor: '#707070',
+            confirmButtonText: 'Si',
+            cancelButtonText: 'No',
           }).then((result) => {
             if (result.isConfirmed) {
-              Swal.fire(
-                'Deleted!',
-                'la fila ha sido eliminada.',
-                'success'
-              )
+              Swal.fire({
+                 title: 'La fila ha sido eliminada.',
+                 icon: 'success',
+                 confirmButtonText: 'Aceptar',
+                 confirmButtonColor: '#0575BF',
+              })
             }
           })
         

@@ -80,6 +80,7 @@
 
 .headtableModal{
     background: transparent linear-gradient(180deg, #066CB0 0%, #0A528B 100%) 0% 0% no-repeat padding-box;
+    color: #FFFFFF;
     opacity: 1;
     height: 33px;
     text-align: center;
@@ -87,6 +88,7 @@
 .footertableModal{
     background: #D1D4D5 0% 0% no-repeat padding-box;
     height: 42px;
+    color: #A7A9AA;
     opacity: 1;
 }
 

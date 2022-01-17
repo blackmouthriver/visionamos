@@ -14,7 +14,7 @@ const Modals = () => {
             <div class="bodyModal">
                 <label class="titleMoviCont">Movimientos contables</label>
                 <li class="ModalListOne">Para importar el archivo de click en el boton <b class="strong">"ACEPTAR"</b></li>
-                <li class="ModalListtwo">los siguientes son los campos requeridos para la migración de movimientos contables</li>
+                <li class="ModalListtwo">Los siguientes son los campos requeridos para la migración de movimientos contables</li>
                 <label class="ModalListtree">Recuerde que el archivo es <u>sin encabezado, separado por punto 
                 y coma (;)</u> y debe ser extension .csv</label>
             </div>
@@ -22,13 +22,13 @@ const Modals = () => {
                  <table>
                         <thead class="headtableModal">
                                 <tr>
-                                <th id="posOne">Posición1</th>
-                                <th id="posOne">Posición2</th>
-                                <th id="posOne">Posición3</th>
-                                <th id="posOne">Posición4</th>
-                                <th id="posOne">Posición5</th>
-                                <th id="posOne">Posición6</th>
-                                <th id="posOne">Posición7</th>
+                                <th id="posOne">Posición 1</th>
+                                <th id="posOne">Posición 2</th>
+                                <th id="posOne">Posición 3</th>
+                                <th id="posOne">Posición 4</th>
+                                <th id="posOne">Posición 5</th>
+                                <th id="posOne">Posición 6</th>
+                                <th id="posOne">Posición 7</th>
                                 </tr>
                         </thead>
                         <tbody class="footertableModal"> 
@@ -36,10 +36,10 @@ const Modals = () => {
                                 <td id="titlestable">Cuenta</td>
                                 <td id="titlestable">Cliente</td>
                                 <td id="titlestable">Comentarios</td>
-                                <td id="titlestable">Debito</td>
-                                <td id="titlestable">Credito</td>
-                                <td id="titlestable">Numero de referencia</td>
-                                <td id="titlestable">Codigo de agencia</td>
+                                <td id="titlestable">Débito</td>
+                                <td id="titlestable">Crédito</td>
+                                <td id="titlestable">Número de referencia</td>
+                                <td id="titlestable">Código de agencia</td>
                                 </tr>
                         </tbody>
                  </table>

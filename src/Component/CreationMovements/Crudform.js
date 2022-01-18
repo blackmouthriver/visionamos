@@ -167,7 +167,8 @@ const Crudform = () => {
     
     return (
         <div id="tabledata">
-            <form  id="conteiner-form" onSubmit={handleSubmit}>
+             <div id="introContainier">
+                 <form  id="conteiner-form" onSubmit={handleSubmit}>
                 <select id="labelTextOne">
                         <option id="selectTable" selected>Seleccionar</option>
                         <option id="selectTable" value="1">Agencia 1</option>
@@ -222,8 +223,8 @@ const Crudform = () => {
                        <FontAwesomeIcon id="iconbutabletrash" 
                        icon={faTrash} />
                 </button>
-            </form>
-            <form  id="conteiner-form2" onSubmit={handleSubmit}>
+                 </form>
+                 <form  id="conteiner-form2" onSubmit={handleSubmit}>
                 <select id="labelTextOneO">
                         <option id="selectTable" selected>Seleccionar</option>
                         <option id="selectTable" value="1">Agencia 1</option>
@@ -278,8 +279,8 @@ const Crudform = () => {
                        <FontAwesomeIcon id="iconbutabletrash" 
                        icon={faTrash} />
                        </button>
-            </form>
-            <form  id="conteiner-form" onSubmit={handleSubmit}>
+                 </form>
+                 <form  id="conteiner-form" onSubmit={handleSubmit}>
                 <select id="labelTextOne">
                         <option id="selectTable" selected>Seleccionar</option>
                         <option id="selectTable" value="1">Agencia 1</option>
@@ -334,8 +335,8 @@ const Crudform = () => {
                        <FontAwesomeIcon id="iconbutabletrash" 
                        icon={faTrash} />
                        </button>
-            </form>
-            <form  id="conteiner-form2" onSubmit={handleSubmit}>
+                 </form>
+                 <form  id="conteiner-form2" onSubmit={handleSubmit}>
                 <select id="labelTextOneO">
                         <option id="selectTable" selected>Seleccionar</option>
                         <option id="selectTable" value="1">Agencia 1</option>
@@ -390,15 +391,15 @@ const Crudform = () => {
                        <FontAwesomeIcon id="iconbutabletrash" 
                        icon={faTrash} />
                        </button>
-            </form>
-                <div id="conteiner-boton">
+                 </form>
+                     <div id="conteiner-boton">
                     <button id="buttonAdd" onClick={() =>addRow()}>
                              Agregar 
                              <FontAwesomeIcon id="iconbuttonplus" 
                              icon={faTimes} />
                     </button>
-                </div>
-                <div id="footerView">
+                     </div>
+                     <div id="footerView">
                     <input
                           id="Cell-total"
                           type="text" 
@@ -421,7 +422,8 @@ const Crudform = () => {
                      onClick={() =>redireccionar()}>
                     Aceptar
                     </button>
-                </div>
+                     </div>
+             </div>
         </div>
     )
 }

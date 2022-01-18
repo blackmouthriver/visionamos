@@ -16,3 +16,11 @@ background: #F4F4F4 0% 0% no-repeat padding-box;
 border: 1px dashed #0E4A7D;
 opacity: 1;
 }
+
+#progress{
+    display: block;
+}
+
+#container-progress{
+    display: block;
+}

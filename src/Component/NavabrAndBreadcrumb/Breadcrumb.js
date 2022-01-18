@@ -21,7 +21,6 @@ const Breadcrmb = () => {
               <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="./Component/Home.js">Home</a></li>
               <li class="breadcrumb-item active" aria-current="page">Creación de movimientos</li>
-              <li class="breadcrumb-item active" aria-current="page">Recibo captura de movimientos</li>
               </ol>
             </nav>
             <button 

@@ -13,8 +13,8 @@ const ContainerTable = () => {
                         <th id="conteiner-itemsOpt">CLIENTE</th>
                         <th id="conteiner-itemsFour">COMENTARIO</th>
                         <th id="conteiner-itemsTwo">REFERENCIA</th>
-                        <th id="conteiner-itemsThree">DÉBITO</th>
-                        <th id="conteiner-itemsThree">CRÉDITO</th>
+                        <th id="conteiner-itemsThree">DB</th>
+                        <th id="conteiner-itemsThree">CR</th>
                         <th id="conteiner-itemsOpt">OPCIONES</th>
                     </tr>
             </thead>

@@ -86,8 +86,8 @@ const MotionCapture = () => {
                                 <th id="cellOne">CLIENTE</th>
                                 <th id="cellTwo">COMENTARIO</th>
                                 <th id="cellOne">REFERENCIA</th>
-                                <th id="cellOne">DEBITO</th>
-                                <th id="cellOne">CREDITO</th>
+                                <th id="cellOne">DÉBITO</th>
+                                <th id="cellOne">CRÉDITO</th>
                             </tr>
                     
                     </thead>
@@ -98,7 +98,7 @@ const MotionCapture = () => {
                 </div>
                     <div id="celltotales">       
                         <input 
-                            id="cellResult"
+                            id="cellResultT"
                             type="text" 
                             name="total " 
                             placeholder='Total'>  

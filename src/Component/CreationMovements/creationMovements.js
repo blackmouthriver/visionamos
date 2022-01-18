@@ -84,7 +84,8 @@ const CreationView = (initialDb) => {
           <div id="ContainerGobal">
                 <Breadcrmb />
                 <navbarMenu />
-                <div id="Container">     
+                <div id="Container"> 
+                    
                         <div>
                             <br></br>
                             <p id="TitleHead">CREACIÓN DE MOVIMIENTOS CONTABLES</p>
@@ -100,7 +101,7 @@ const CreationView = (initialDb) => {
                                     <option id="valueOpt" value="3">Three</option>
                                 </select>
                                 <label id="fecha-Contable">Fecha contable*</label>
-                                <input type="date" id="SelecComp" placeholder="Seleccione Fecha"></input>
+                                <input type="date" id="SelecComp"  placeholder="Seleccione Fecha"></input>
                             </div>    
                             <textarea type="text" id="inputAreaText" placeholder="Descripción"></textarea>
                                 </div>

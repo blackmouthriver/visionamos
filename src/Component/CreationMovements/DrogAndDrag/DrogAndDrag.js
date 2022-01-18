@@ -44,11 +44,10 @@ const DrogAndDrag = () => {
             <p id="title-Drog"> <FontAwesomeIcon id="iconfile" icon={faFileCsv} /> Arrastre o seleccione un archivo de su equipo</p>
         </div>
              <div>
-             <div id='preview'></div>
-             <input type="file" id="input-file" hidden />
+             <div id='preview'>Movi_Contables_Diciembre.xsl  </div>
              <div id='container-progress'>
              <div id='progress'>
-             <ProgressBar now={0} />
+             <ProgressBar now={100}/>
              </div>
              <button id='cancelImport' onClick={()=>redireccionar()}>X</button>
              <Modals />

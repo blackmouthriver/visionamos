@@ -166,7 +166,7 @@ const Crudform = () => {
     }
     
     return (
-        <div>
+        <div id="tabledata">
             <form  id="conteiner-form" onSubmit={handleSubmit}>
                 <select id="labelTextOne">
                         <option id="selectTable" selected>Seleccionar</option>
@@ -218,6 +218,174 @@ const Crudform = () => {
                 </input>
                 <button onClick={deleteRow}
                         id="buttonDelete">
+                        <i class="bi bi-trash"></i>
+                       <FontAwesomeIcon id="iconbutabletrash" 
+                       icon={faTrash} />
+                </button>
+            </form>
+            <form  id="conteiner-form2" onSubmit={handleSubmit}>
+                <select id="labelTextOneO">
+                        <option id="selectTable" selected>Seleccionar</option>
+                        <option id="selectTable" value="1">Agencia 1</option>
+                        <option id="selectTable" value="2">Agencia 2</option>
+                        <option id="selectTable" value="3">Agencia 3</option>
+                </select>
+                <input 
+                        id="labelTextTwoO"
+                        type="text" 
+                        name="Cuenta " 
+                        placeholder='Ingresar cuenta' 
+                        >
+                 </input>
+                <input  
+                        id="labelTextOptO"
+                        type="text" 
+                        name="Cliente " 
+                        placeholder='Ingresar cliente' 
+                        >
+                </input>
+                <input 
+                        id="labelTextfourO"
+                        type="text" 
+                        name="Comentario " 
+                        placeholder='Ingresar Comentario' 
+                        >
+                </input>
+                <input 
+                        id="labelTextRefO"
+                        type="text" 
+                        name="Referencia " 
+                        placeholder='Ingresar referencia' 
+                        >
+                </input>
+                <input 
+                        id="labelTextThreeO"
+                        type="text" 
+                        name="Debito " 
+                        placeholder='0' 
+                        >
+                </input>
+                <input 
+                        id="labelTextThreeO"
+                        type="text" 
+                        name="Credito " 
+                        placeholder='0' 
+                        >
+                </input>
+                <button onClick={deleteRow}
+                        id="buttonDeleteO">
+                        <i class="bi bi-trash"></i>
+                       <FontAwesomeIcon id="iconbutabletrash" 
+                       icon={faTrash} />
+                       </button>
+            </form>
+            <form  id="conteiner-form" onSubmit={handleSubmit}>
+                <select id="labelTextOne">
+                        <option id="selectTable" selected>Seleccionar</option>
+                        <option id="selectTable" value="1">Agencia 1</option>
+                        <option id="selectTable" value="2">Agencia 2</option>
+                        <option id="selectTable" value="3">Agencia 3</option>
+                </select>
+                <input 
+                        id="labelTextTwo"
+                        type="text" 
+                        name="Cuenta " 
+                        placeholder='Ingresar cuenta' 
+                        >
+                 </input>
+                <input  
+                        id="labelTextOpt"
+                        type="text" 
+                        name="Cliente " 
+                        placeholder='Ingresar cliente' 
+                        >
+                </input>
+                <input 
+                        id="labelTextfour"
+                        type="text" 
+                        name="Comentario " 
+                        placeholder='Ingresar Comentario' 
+                        >
+                </input>
+                <input 
+                        id="labelTextRef"
+                        type="text" 
+                        name="Referencia " 
+                        placeholder='Ingresar referencia' 
+                        >
+                </input>
+                <input 
+                        id="labelTextThree"
+                        type="text" 
+                        name="Debito " 
+                        placeholder='0' 
+                        >
+                </input>
+                <input 
+                        id="labelTextThree"
+                        type="text" 
+                        name="Credito " 
+                        placeholder='0' 
+                        >
+                </input>
+                <button onClick={deleteRow}
+                        id="buttonDelete">
+                        <i class="bi bi-trash"></i>
+                       <FontAwesomeIcon id="iconbutabletrash" 
+                       icon={faTrash} />
+                       </button>
+            </form>
+            <form  id="conteiner-form2" onSubmit={handleSubmit}>
+                <select id="labelTextOneO">
+                        <option id="selectTable" selected>Seleccionar</option>
+                        <option id="selectTable" value="1">Agencia 1</option>
+                        <option id="selectTable" value="2">Agencia 2</option>
+                        <option id="selectTable" value="3">Agencia 3</option>
+                </select>
+                <input 
+                        id="labelTextTwoO"
+                        type="text" 
+                        name="Cuenta " 
+                        placeholder='Ingresar cuenta' 
+                        >
+                 </input>
+                <input  
+                        id="labelTextOptO"
+                        type="text" 
+                        name="Cliente " 
+                        placeholder='Ingresar cliente' 
+                        >
+                </input>
+                <input 
+                        id="labelTextfourO"
+                        type="text" 
+                        name="Comentario " 
+                        placeholder='Ingresar Comentario' 
+                        >
+                </input>
+                <input 
+                        id="labelTextRefO"
+                        type="text" 
+                        name="Referencia " 
+                        placeholder='Ingresar referencia' 
+                        >
+                </input>
+                <input 
+                        id="labelTextThreeO"
+                        type="text" 
+                        name="Debito " 
+                        placeholder='0' 
+                        >
+                </input>
+                <input 
+                        id="labelTextThreeO"
+                        type="text" 
+                        name="Credito " 
+                        placeholder='0' 
+                        >
+                </input>
+                <button onClick={deleteRow}
+                        id="buttonDeleteO">
                         <i class="bi bi-trash"></i>
                        <FontAwesomeIcon id="iconbutabletrash" 
                        icon={faTrash} />

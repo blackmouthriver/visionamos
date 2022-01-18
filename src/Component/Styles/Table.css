@@ -65,6 +65,7 @@ body{
     height: 42px;
 }
 
+
 #container-table-create{
     width: 100%;
     height: auto;
@@ -86,10 +87,14 @@ body{
     width: 100%;
 }
 
-
+#conttable{
+    margin-top: 29px;
+    margin-left: 17px;
+    margin-right: 18px;
+}
 
 #containerTables{
-    width: 100%;
+    width: auto;
     height: auto;
     background: transparent linear-gradient(180deg, #FDFDFD 0%, #F6F7F9 100%) 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
@@ -97,7 +102,17 @@ body{
     opacity: 1;
 }
 
+#tableinter{
+    width: 100%;
+}
+
 #conteiner-form{
+    display: inline-flex;
+    height: 40px;
+    background: transparent linear-gradient(180deg, #FDFDFD 0%, #F6F7F9 100%) 0% 0% no-repeat padding-box;
+}
+
+#conteiner-form2{
     display: inline-flex;
     height: 40px;
     background: transparent linear-gradient(180deg, #FDFDFD 0%, #F6F7F9 100%) 0% 0% no-repeat padding-box;
@@ -194,7 +209,15 @@ width: 100px;
 }
 
 #cellResult{
-    width: 150px;
+    width: 132px;
+    height: 37px;
+    background: #F4F4F4 0% 0% no-repeat padding-box;
+    border: 0.5px solid #5B4D42;
+    opacity: 1;
+}
+
+#cellResultT{
+    width: 137px;
     height: 37px;
     background: #F4F4F4 0% 0% no-repeat padding-box;
     border: 0.5px solid #5B4D42;

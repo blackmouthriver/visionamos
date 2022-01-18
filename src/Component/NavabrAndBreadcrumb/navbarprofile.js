@@ -4,7 +4,7 @@ const navbarprofile = () => {
     return (
         <div id='navbarprofile'>
             <div>
-                <input></input>
+                <input>hola</input>
             </div>
         </div>
     )

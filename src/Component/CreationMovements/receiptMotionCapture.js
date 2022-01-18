@@ -31,94 +31,97 @@ const MotionCapture = () => {
       }
 
     return ( 
-        <div id="ContainerGobal">
-
-         
-         <Breadcrmb />
-         <navbarMenu />
-        <div id="Container">
-            <div id="containerTibleAndbuttos">
-                <div>
-                <p id="TitleHead">RECIBO DE CAPTURA DE MOVIMIENTOS</p>
-                </div>
-                <div id="buttonsPrintAndReturn">
-                        <button 
-                                id="buttonprint" 
-                                onClick={() => window.print()}
-                                > 
-                                <FontAwesomeIcon id="iconPrint" 
-                                icon={faPrint}/>   Imprimir</button>
-                        <button 
-                               id="buttonReturn"
-                               onClick={()=>redireccionar()}
-                               >
-                               Volver
-                        </button>
-                </div>
+        <div id="general">
+            <div id="barraMenu">
             </div>
+            <div id="ContainerGobal">
 
-
-            
-            <div id="container-Subtitle">
-                <br></br>
-                 <h1 id="subTitleInfo">Información General</h1>
-            </div>   
-            <div id="containerHeadComprobant">
-                 <div id="containerLabels">
-                      <img  id='imagen' src={Cobelen} />
-                      <label id="labelMovi">Comprobante</label>
-                      <input id="inuputLabelsMovi"></input>
-                      <label id="labelMovi">Numero</label>
-                      <input id="inuputLabelsMovi"></input>
-                      <label id="labelMovi">Fecha Contable</label>
-                      <input id="inuputLabelsMovi"></input>
-                      <label id="labelMovi">Descripción</label>
-                      <input id="inuputLabelsMovi"></input>
-                 </div> 
-            </div>
-            <div id="containerTables">
-                <div id="tableCaptureMovi">
-                    <thead id="tableCapture">
-                            <tr id="">
-                                <th id="cellOne">AGENCIA</th>
-                                <th id="cellOne">CUENTA</th>
-                                <th id="cellOne">IDENTIFICACIÓN</th>
-                                <th id="cellOne">CLIENTE</th>
-                                <th id="cellTwo">COMENTARIO</th>
-                                <th id="cellOne">REFERENCIA</th>
-                                <th id="cellOne">DÉBITO</th>
-                                <th id="cellOne">CRÉDITO</th>
-                            </tr>
-                    
-                    </thead>
-                    <p id="alerta">No hay datos en la tabla</p>
-                    <tbody>   
-
-                    </tbody>
+            <div id="menutop"></div>
+            <Breadcrmb />
+            <div id="Container">
+                <div id="containerTibleAndbuttos">
+                    <div>
+                    <p id="TitleHead">RECIBO DE CAPTURA DE MOVIMIENTOS</p>
+                    </div>
+                    <div id="buttonsPrintAndReturn">
+                            <button 
+                                    id="buttonprint" 
+                                    onClick={() => window.print()}
+                                    > 
+                                    <FontAwesomeIcon id="iconPrint" 
+                                    icon={faPrint}/>   Imprimir</button>
+                            <button 
+                                id="buttonReturn"
+                                onClick={()=>redireccionar()}
+                                >
+                                Volver
+                            </button>
+                    </div>
                 </div>
-                    <div id="celltotales">       
-                        <input 
-                            id="cellResultT"
-                            type="text" 
-                            name="total " 
-                            placeholder='Total'>  
-                        </input>
-                        <input 
-                            id="cellResult"
-                            type="text" 
-                            name="SumaDebito " 
-                            placeholder='$ 0'>
-                        </input>
-                        <input 
-                            id="cellResult"
-                            type="text" 
-                            name="SumaCredito " 
-                            placeholder='$ 0'>
-                        </input>
+
+
+                
+                <div id="container-Subtitle">
+                    <br></br>
+                    <h1 id="subTitleInfo">Información General</h1>
+                </div>   
+                <div id="containerHeadComprobant">
+                    <div id="containerLabels">
+                        <img  id='imagen' src={Cobelen} />
+                        <label id="labelMovi">Comprobante</label>
+                        <input id="inuputLabelsMovi"></input>
+                        <label id="labelMovi">Numero</label>
+                        <input id="inuputLabelsMovi"></input>
+                        <label id="labelMovi">Fecha Contable</label>
+                        <input id="inuputLabelsMovi"></input>
+                        <label id="labelMovi">Descripción</label>
+                        <input id="inuputLabelsMovi"></input>
                     </div> 
+                </div>
+                <div id="containerTables">
+                    <div id="tableCaptureMovi">
+                        <thead id="tableCapture">
+                                <tr id="">
+                                    <th id="cellOne">AGENCIA</th>
+                                    <th id="cellOne">CUENTA</th>
+                                    <th id="cellOne">IDENTIFICACIÓN</th>
+                                    <th id="cellOne">CLIENTE</th>
+                                    <th id="cellTwo">COMENTARIO</th>
+                                    <th id="cellOne">REFERENCIA</th>
+                                    <th id="cellOne">DÉBITO</th>
+                                    <th id="cellOne">CRÉDITO</th>
+                                </tr>
+                        
+                        </thead>
+                        <p id="alerta">No hay datos en la tabla</p>
+                        <tbody>   
+
+                        </tbody>
+                    </div>
+                        <div id="celltotales">       
+                            <input 
+                                id="cellResultT"
+                                type="text" 
+                                name="total " 
+                                placeholder='Total'>  
+                            </input>
+                            <input 
+                                id="cellResult"
+                                type="text" 
+                                name="SumaDebito " 
+                                placeholder='$ 0'>
+                            </input>
+                            <input 
+                                id="cellResult"
+                                type="text" 
+                                name="SumaCredito " 
+                                placeholder='$ 0'>
+                            </input>
+                        </div> 
+                </div>
+                
             </div>
-            
-        </div>
+            </div>
         </div>
      );
   

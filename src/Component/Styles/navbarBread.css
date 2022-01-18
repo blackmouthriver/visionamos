@@ -8,7 +8,7 @@
 }
 
 #breadcrumb{
-    margin-left: 80px;
+    margin-left: 95px;
     margin-top: 10px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     font: normal normal 600 13px Montserrat;
@@ -19,4 +19,20 @@
 #navbarMenu{
     width: 76px;
     height: 1080px;
+}
+
+#barraMenu{
+    position: fixed;
+    width: 76px;
+    height: 1080px;
+    background: #E5E6E9 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 6px #0000000D;
+    opacity: 1;
+}
+
+#menutop{
+    height: 68px;
+    margin-bottom: 6px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
 }

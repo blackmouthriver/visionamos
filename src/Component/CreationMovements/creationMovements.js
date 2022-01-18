@@ -5,6 +5,7 @@ import DrogAndDrag from "./DrogAndDrag/DrogAndDrag";
 import ContainerTable from "./ContainerTable";
 import navbarMenu from "../NavabrAndBreadcrumb/navbarMenu";
 import navbarprofile from "../NavabrAndBreadcrumb/navbarprofile";
+
 const initialDb = [
     {
         id:1,
@@ -81,46 +82,51 @@ const initialDb = [
 const CreationView = (initialDb) => {
 
     return ( 
-          <div id="ContainerGobal">
-                <Breadcrmb />
-                <navbarMenu />
-                <div id="Container"> 
-                    
-                        <div>
-                            <br></br>
-                            <p id="TitleHead">CREACIÓN DE MOVIMIENTOS CONTABLES</p>
-                            <div id="ConteinerHead">
-                                <div id="Container-Comprob">
-                                <div id="Conteiner-labels-head">
-                                <label id="Comprobante">Comprobante*</label>
+        <div id="general">
+            <div id="barraMenu">
 
-                                <select id="SelectCompro">
-                                    <option id="valueOpt" selected>Seleccione un comprobante</option>
-                                    <option id="valueOpt" value="1">One</option>
-                                    <option id="valueOpt" value="2">Two</option>
-                                    <option id="valueOpt" value="3">Three</option>
-                                </select>
-                                <label id="fecha-Contable">Fecha contable*</label>
-                                <input type="date" id="SelecComp"  placeholder="Seleccione Fecha"></input>
-                            </div>    
-                            <textarea type="text" id="inputAreaText" placeholder="Descripción"></textarea>
+            </div>
+            <div id="ContainerGobal">
+                    <div id="menutop"></div>
+                    <Breadcrmb />
+
+                    <div id="Container"> 
+                        
+                            <div>
+                                <br></br>
+                                <p id="TitleHead">CREACIÓN DE MOVIMIENTOS CONTABLES</p>
+                                <div id="ConteinerHead">
+                                    <div id="Container-Comprob">
+                                    <div id="Conteiner-labels-head">
+                                    <label id="Comprobante">Comprobante*</label>
+                                    <select id="SelectCompro">
+                                        <option id="valueOpt" selected>Seleccione un comprobante</option>
+                                        <option id="valueOpt" value="1">One</option>
+                                        <option id="valueOpt" value="2">Two</option>
+                                        <option id="valueOpt" value="3">Three</option>
+                                    </select>
+                                    <label id="fecha-Contable">Fecha contable*</label>
+                                    <input type="date" id="SelecComp"  placeholder="Seleccione Fecha"></input>
+                                </div>    
+                                <textarea type="text" id="inputAreaText" placeholder="Descripción"></textarea>
+                                    </div>
+
+                            <div  id="drogAndDrag">
+                                <DrogAndDrag />  
+                            </div> 
                                 </div>
-
-                        <div  id="drogAndDrag">
-                            <DrogAndDrag />  
-                        </div> 
                             </div>
-                        </div>
-                        <div id="container-table-create">
-                            <table id="container-table-subcreate">
-                                <ContainerTable />
-                                <Crudform /> 
-                            </table>
-                        </div>
+                            <div id="container-table-create">
+                                <table id="container-table-subcreate">
+                                    <ContainerTable />
+                                    <Crudform /> 
+                                </table>
+                            </div>
 
-                
-                </div>
-         </div>
+                    
+                    </div>
+            </div>
+        </div>
      );
 }
  
